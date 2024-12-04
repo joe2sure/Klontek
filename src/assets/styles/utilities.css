@@ -1,0 +1,20 @@
+/* Text utilities */
+.text-center {
+    text-align: center;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Spacing utilities */
+.m-1 {
+    margin: 4px;
+}
+.p-2 {
+    padding: 8px;
+}
+
+/* Background utilities */
+.bg-primary {
+    background-color: var(--primary-color);
+}
