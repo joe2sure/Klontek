@@ -17,7 +17,7 @@
     margin-top: 50px;
   }
   .aboutHome .item {
-    background-color: #fff;
+    background-color: var(--backgroundLight);
     margin-top: 30px;
     padding: 20px;
     transition: 0.5s;
@@ -37,13 +37,13 @@
     color: #999999;
   }
   .aboutHome .item:hover {
-    background-color: #1eb2a6;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--backgroundLight);
     cursor: pointer;
     box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   }
   .aboutHome .item:hover p {
-    color: #fff;
+    color: var(--backgroundLight);
   }
   /*----------awrapper------------*/
   .awrapper {
@@ -52,7 +52,7 @@
     background-size: cover;
     background-position: center;
     height: 30vh;
-    color: #fff;
+    color: var(--backgroundLight);
   }
   .awrapper .box {
     padding: 70px 0;

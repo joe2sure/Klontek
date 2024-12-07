@@ -4,15 +4,16 @@ import AboutSection from "./AboutSection/aboutSection.jsx";
 import BrowseCourses from "./Courses/BrowseCourses.jsx";
 import Service from "./Service/Service.jsx";
 import {
-  ServicesData, PortfolioData
+  ServicesData, PortfolioData, WhyChooseUsData
 } from '../../data/dummyData.js';
 import Portfolio from "./Portfolio/Portfolio.jsx";
-// import WhatWeDo from "./Service/WhatWeDo.jsx";
-// import AboutCard from "../about/AboutCard";
-// import Hblog from "./Hblog";
-// import HAbout from "./HAbout";
-// import Hprice from "./Hprice";
-// import Testimonal from "./testimonal/Testimonal";
+import WhyChooseUs from "./WhyChooseUs/WhyChooseUs.jsx";
+import Discuss from "./Discuss/Discuss.jsx";
+import Revenue from "./Revenue/Revenue.jsx";
+import BlogSection from "./BlogSection/BlogSection.jsx";
+import Testimonial from "./Testimonial/Testimonial.jsx";
+import PricingSection from "./PricingSection/PricingSection.jsx";
+
 
 const Home = () => {
   return (
@@ -22,11 +23,12 @@ const Home = () => {
       <BrowseCourses/>
       <Service data={ServicesData}/>
       <Portfolio data={PortfolioData} />
-      {/* <WhatWeDo/> */}
-      {/* <HAbout />
-      <Testimonal />
-      <Hblog />
-      <Hprice /> */}
+      <WhyChooseUs data={WhyChooseUsData} />
+      <Discuss/>
+      <Testimonial/>
+      <Revenue/>
+      <BlogSection/>
+      <PricingSection/>
     </>
   )
 }

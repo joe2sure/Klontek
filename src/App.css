@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.icon {
+/* .icon {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -26,12 +26,12 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
   color: var(--primary-color);
   transition: 0.5s;
-}
-.icon:hover {
+} */
+/* .icon:hover {
   cursor: pointer;
   background-color: var(--primary-color);
   color: var(--backgroundLight);
-}
+} */
 a {
   text-decoration: none;
 }
@@ -66,13 +66,13 @@ button:hover {
 
 /*------------global-----------*/
 #heading {
-  text-align: center;
+  /* text-align: center; */
   padding: 40px 0;
 }
 #heading h3 {
   font-weight: 600;
   letter-spacing: 1px;
-  color: var(--primary-color);
+  color: var(--primary-color-red);
   text-transform: uppercase;
 }
 #heading h1 {

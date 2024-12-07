@@ -4,16 +4,7 @@ import Header from './components/Navbar/Header.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Home from './pages/Home/Home.jsx';
 
-// import Home from "./components/home/Home";
-// import Header from "./components/common/header/Header";
-// import Footer from "./components/common/footer/Footer";
-// import Event from "./components/Events/Event";
-// import About from "./components/about/About";
-// import CourseHome from "./components/allcourses/CourseHome";
-// import Team from "./components/team/Team";
-// import Pricing from "./components/pricing/Pricing";
-// import Blog from "./components/blog/Blog";
-// import Contact from "./components/contact/Contact";
+
 
 
 function App() {

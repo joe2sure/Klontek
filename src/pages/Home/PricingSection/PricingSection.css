@@ -1,0 +1,237 @@
+.pricing-section {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .pricing-package-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .pricing-section-title {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-main-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .pricing-description {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .pricing-billing-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .pricing-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .pricing-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .pricing-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .pricing-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .pricing-slider {
+    background-color: #ffc107;
+  }-payment
+  
+  input:checked + .pricing-slider:before {
+    transform: translateX(26px);
+  }
+  
+  .pricing-packages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .pricing-package-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-package-card.pricing-popular {
+    background: #ffc107;
+  }
+  
+  .pricing-popular-tag {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .pricing-package-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-package-price {
+    margin-bottom: 2rem;
+  }
+  
+  .pricing-currency {
+    font-size: 1.2rem;
+    vertical-align: top;
+  }
+  
+  .pricing-amount {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .pricing-period {
+    color: #666;
+  }
+  
+  .pricing-features-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  .pricing-features-list li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .pricing-features-list li.pricing-not-included {
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  .pricing-check-icon {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .pricing-not-included .pricing-check-icon {
+    color: #dc3545;
+  }
+  
+  .pricing-get-package-btn {
+    background: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .pricing-popular .pricing-get-package-btn {
+    background: #333;
+    color: white;
+  }
+  
+  .pricing-get-package-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-footer-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .pricing-footer-text {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+  }
+  
+  .pricing-footer-text a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pricing-sponsors-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .pricing-sponsor-logo {
+    max-width: 120px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .pricing-sponsor-logo:hover {
+    opacity: 1;
+  }
+  
+  @media (max-width: 1024px) {
+    .pricing-packages-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .pricing-packages-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .pricing-sponsors-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }

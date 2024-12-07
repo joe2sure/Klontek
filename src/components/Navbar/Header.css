@@ -1,16 +1,55 @@
+--------head------------  
+
+
+
 /*--------head------------*/
+
 .head {
-    padding: 20px 0;
-    color: #fff;
-  }
-  .logo h1 {
-    font-size: 35px;
-    font-weight: 900;
-  }
-  .head .icon {
-    margin-left: 10px;
-  }
+  padding: 20px 0;
+  color: var(--backgroundLight);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo .logo-image {
+  max-height: 150px; 
+  object-fit: contain;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon-container {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: var(--primary-color);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.social-icon-container:hover {
+  background-color: var(--primary-color)
+}
+
+.social-icon-container .icon {
+  color: var(--backgroundLight);
+  font-size: 20px;
+}
+
+.head .icon {
+  margin: 0;
+}
   /*--------head------------*/
+
+
   /*--------header------------*/
   header {
     background-color: rgba(255, 255, 255, 0.2);
@@ -26,17 +65,17 @@
     padding: 30px 20px;
   }
   header ul li a {
-    color: #fff;
+    color: var(--backgroundLight);
     font-weight: 500;
     transition: 0.5s;
   }
   header ul li a:hover {
-    color: #1eb2a6;
+    color: var(--primary-color);
   }
   .start {
-    background-color: #1eb2a6;
+    background-color: var(--primary-color);
     padding: 30px 70px;
-    color: #fff;
+    color: var(--backgroundLight);
     clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
   }
   .toggle {
@@ -49,7 +88,7 @@
     }
     header {
       margin: 0;
-      background-color: #1eb2a6;
+      background-color: var(--primary-color);
       position: relative;
     }
     header ul.flexSB {
@@ -61,7 +100,7 @@
     .toggle {
       display: block;
       background: none;
-      color: #fff;
+      color: var(--backgroundLight);
       font-size: 30px;
       position: absolute;
       right: 0;
@@ -72,6 +111,6 @@
       top: 7vh;
       left: 0;
       width: 100%;
-      background-color: #1eb2a6;
+      background-color: var(--primary-color);
     }
   }

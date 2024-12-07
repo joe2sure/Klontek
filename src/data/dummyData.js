@@ -11,6 +11,67 @@ import Aura from '../assets/images/portfolio/Aura.png';
 import Surtido from '../assets/images/portfolio/Surtido.png';
 import ManagementApp from '../assets/images/portfolio/ManagementApp.png';
 
+// WhyChooseUs Img Imports
+import Communicative from '../assets/images/why-choose-us/Communicative.png';
+import Collaborative from '../assets/images/why-choose-us/Collaborative.png';
+import Management from '../assets/images/why-choose-us/Management.png';
+import Favorite from '../assets/images/why-choose-us/Favorite.png';
+
+// blog Img Imports
+import CoverImg1 from "../assets/images/blog/b1.webp";
+import CoverImg2 from "../assets/images/blog/b2.webp";
+import CoverImg3 from "../assets/images/blog/b3.webp";
+import CoverImg4 from "../assets/images/blog/b4.webp";
+import CoverImg5 from "../assets/images/blog/b5.webp";
+import CoverImg6 from "../assets/images/blog/b6.webp";
+
+// testimonial Img imports
+import testimonialCoverImg1 from "../assets/images/testimonial/t1.webp";
+import testimonialCoverImg2 from "../assets/images/testimonial/t2.webp";
+import testimonialCoverImg3 from "../assets/images/testimonial/t3.webp";
+
+  // browse courses Img imports
+  import c1 from '../assets/images/courses/c1.png';
+  import c2 from '../assets/images/courses/c2.png'
+  import c3 from '../assets/images/courses/c3.png'
+  import c4 from '../assets/images/courses/c4.png'
+  import c5 from '../assets/images/courses/c5.png'
+  import c6 from '../assets/images/courses/c6.png'
+  import c7 from '../assets/images/courses/c7.png'
+  import c8 from '../assets/images/courses/c8.png'
+  import c9 from '../assets/images/courses/c9.png'
+  import backImg from '../assets/images/back.webp';
+
+// explore online course img import
+import o1 from '../assets/images/courses/outline/o1.png';
+import o2 from '../assets/images/courses/outline/o2.png';
+import o3 from '../assets/images/courses/outline/o3.png';
+import o4 from '../assets/images/courses/outline/o4.png';
+import o5 from '../assets/images/courses/outline/o5.1.png';
+import o6 from '../assets/images/courses/outline/o6.png';
+import o7 from '../assets/images/courses/outline/o7.png';
+import o8 from '../assets/images/courses/outline/o8.png';
+import o9 from '../assets/images/courses/outline/o9.png';
+import o10 from '../assets/images/courses/outline/o10.png';
+import o11 from '../assets/images/courses/outline/o11.png';
+import o12 from '../assets/images/courses/outline/o12.png';
+
+// online hoverCover img imports
+import oh1 from '../assets/images/courses/outline/o1.1.png';
+import oh2 from '../assets/images/courses/outline/o2.1.png';
+import oh3 from '../assets/images/courses/outline/o3.1.png';
+import oh4 from '../assets/images/courses/outline/o4.1.png';
+import oh5 from '../assets/images/courses/outline/o5.1.png';
+import oh6 from '../assets/images/courses/outline/o6.1.png';
+import oh7 from '../assets/images/courses/outline/o7.1.png';
+import oh8 from '../assets/images/courses/outline/o8.1.png';
+import oh9 from '../assets/images/courses/outline/o9.1.png';
+import oh10 from '../assets/images/courses/outline/o11.1.png';
+import oh11 from '../assets/images/courses/outline/o12.1.png';
+import oh12 from '../assets/images/courses/outline/o11.1.png';
+
+
+
 export const ServicesData = [
     {
       title: 'Web Development',
@@ -98,59 +159,84 @@ export const ServicesData = [
     },
   ];
 
+  export const WhyChooseUsData = [
+    [{
+      title: 'Communicative',
+      description: 'We communicate our project ideas and progress to make it clear.',
+      imageUrl: Communicative,
+    },
+    {
+      title: 'Management',
+      description: 'We manage our project properly to make our project done well.',
+      imageUrl: Management,
+    }],
+    [{
+      title: 'Collaborative​',
+      description: 'Our team are very collaborative to make our project done well.',
+      imageUrl: Collaborative,
+    },
+    {
+      title: 'Favorite',
+      description: "We've did so many project and all of our client love it.",
+      imageUrl: Favorite,
+    }],
+  ];
+
 
 
 export const homeAbout = [
     {
       id: 1,
       cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-      title: "Online Courses",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      title: 'Innovative Software Solutions',
+      desc: 'Delivering cutting-edge software and AI-driven solutions tailored to individual and organizational needs.'
     },
     {
       id: 1,
       cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-      title: "Earn A Certificates",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      title: 'AI Education Democratization',
+      desc: 'Expanding access to AI education across Africa, empowering youth with practical, degree-independent skills.'
     },
     {
       id: 1,
       cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-      title: "Learn with Expert",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    },
+      title: 'Technology Empowerment',
+      desc: 'Fostering technological growth through comprehensive consultancy and transformative learning experiences.'
+    }
   ]
   export const awrapper = [
     {
       cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-      data: "3,000",
+      data: "100+",
       title: "SUCCESS STORIES",
     },
   
     {
       cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-      data: "320",
-      title: "TRUSTED TUTORS",
+      data: "100+",
+      title: "TRUSTED BY MANY",
     },
     {
       cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-      data: "1,000",
-      title: "SCHEDULES",
+      data: "100+",
+      title: "LIVE PROJECTS",
     },
     {
       cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-      data: "587",
-      title: "COURSES",
+      data: "100+",
+      title: "AI COURSES",
     },
   ]
+
+
   export const coursesCard = [
     {
       id: 1,
-      cover: "../images/courses/c1.png",
+      cover: c1,
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by John Smith",
           totalTime: "50 lectures (190 hrs)",
         },
@@ -160,11 +246,11 @@ export const homeAbout = [
     },
     {
       id: 2,
-      cover: "../images/courses/c2.png",
+      cover: c2,
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by Ram Gurung",
           totalTime: "30 lectures (125 hrs)",
         },
@@ -174,11 +260,11 @@ export const homeAbout = [
     },
     {
       id: 3,
-      cover: "../images/courses/c3.png",
+      cover: c3,
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by Saroj Nepal",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -188,11 +274,11 @@ export const homeAbout = [
     },
     {
       id: 4,
-      cover: "../images/courses/c4.png",
+      cover: c4,
       coursesName: "Introducing to Programming with WordPress",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by Prabin Thapa Mager",
           totalTime: "20 lectures (20 hrs)",
         },
@@ -202,11 +288,11 @@ export const homeAbout = [
     },
     {
       id: 5,
-      cover: "../images/courses/c5.png",
+      cover: c5,
       coursesName: "Introducing to Programming with ReactJS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by Sunil Bishowkaram",
           totalTime: "100 lectures (150 hrs)",
         },
@@ -216,11 +302,11 @@ export const homeAbout = [
     },
     {
       id: 6,
-      cover: "../images/courses/c6.png",
+      cover: c6,
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by Sunil Bishowkaram",
           totalTime: "200 lectures (300 hrs)",
         },
@@ -230,11 +316,11 @@ export const homeAbout = [
     },
     {
       id: 7,
-      cover: "../images/courses/c7.png",
+      cover: c7,
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by Price",
           totalTime: "20 lectures (50 hrs)",
         },
@@ -244,11 +330,11 @@ export const homeAbout = [
     },
     {
       id: 8,
-      cover: "../images/courses/c8.png",
+      cover: c8,
       coursesName: "Introducing to with JAVA",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by Petter",
           totalTime: "80 lectures (200 hrs)",
         },
@@ -258,11 +344,11 @@ export const homeAbout = [
     },
     {
       id: 9,
-      cover: "../images/courses/c9.png",
+      cover: c9,
       coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
+          dcover: backImg,
           name: "by Petter",
           totalTime: "50 lectures (50 hrs)",
         },
@@ -271,76 +357,78 @@ export const homeAbout = [
       pricePer: "$3 per month",
     },
   ]
+
+
   export const online = [
     {
-      cover: "./images/courses/online/o1.png",
-      hoverCover: "./images/courses/online/o1.1.png",
+      cover: o1,
+      hoverCover: oh1, 
       courseName: "UI/UX Design Courses",
       course: "25 Courses",
     },
     {
-      cover: "./images/courses/online/o2.png",
-      hoverCover: "./images/courses/online/o2.1.png",
+      cover: o2,
+      hoverCover: oh2,
       courseName: "Art & Design",
       course: "25 Courses",
     },
     {
-      cover: "./images/courses/online/o3.png",
-      hoverCover: "./images/courses/online/o3.1.png",
+      cover: o3,
+      hoverCover: oh3,
       courseName: "Computer Science",
       course: "10 Courses",
     },
     {
-      cover: "./images/courses/online/o4.png",
-      hoverCover: "./images/courses/online/o4.1.png",
+      cover: o4,
+      hoverCover: oh4,
       courseName: "History & Archeologic",
       course: "15 Courses",
     },
     {
-      cover: "./images/courses/online/o5.png",
-      hoverCover: "./images/courses/online/o5.1.png",
+      cover: o5,
+      hoverCover: oh5,
       courseName: "Software Engineering",
       course: "30 Courses",
     },
     {
-      cover: "./images/courses/online/o6.png",
-      hoverCover: "./images/courses/online/o6.1.png",
+      cover: o6,
+      hoverCover: oh6,
       courseName: "Information Software",
       course: "60 Courses",
     },
     {
-      cover: "./images/courses/online/o7.png",
-      hoverCover: "./images/courses/online/o7.1.png",
+      cover: o7,
+      hoverCover: oh7,
       courseName: "Health & Fitness",
       course: "10 Courses",
     },
     {
-      cover: "./images/courses/online/o8.png",
-      hoverCover: "./images/courses/online/o8.1.png",
+      cover: o8,
+      hoverCover: oh8,
       courseName: "Marketing",
       course: "30 Courses",
     },
     {
-      cover: "./images/courses/online/o9.png",
-      hoverCover: "./images/courses/online/o9.1.png",
+      cover: o9,
+      hoverCover: oh9,
       courseName: "Graphic Design",
       course: "80 Courses",
     },
     {
-      cover: "./images/courses/online/o10.png",
-      hoverCover: "./images/courses/online/o10.1.png",
+      cover: o10,
+      hoverCover: oh10,
       courseName: "Music",
       course: "120 Courses",
     },
     {
-      cover: "./images/courses/online/o11.png",
-      hoverCover: "./images/courses/online/o11.1.png",
+      cover: o11,
+      hoverCover: oh11,
       courseName: "Business Administration",
       course: "17 Courses",
     },
     {
-      cover: "./images/courses/online/o12.png",
-      hoverCover: "./images/courses/online/o12.1.png",
+      cover: o12,
+      hoverCover: oh12,
       courseName: "Web Management",
       course: "17 Courses",
     },
@@ -387,7 +475,7 @@ export const homeAbout = [
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
   ]
-  export const price = [
+  export const priceData = [
     {
       name: "BASIC PLAN",
       price: "49K",
@@ -409,7 +497,7 @@ export const homeAbout = [
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
   ]
-  export const faq = [
+  export const faqData = [
     {
       title: "How to Enroll This Online Courses?",
       desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
@@ -443,7 +531,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b1.webp",
+      cover: CoverImg1,
     },
     {
       id: 2,
@@ -452,7 +540,7 @@ export const homeAbout = [
       com: "5 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b2.webp",
+      cover: CoverImg2,
     },
     {
       id: 3,
@@ -461,7 +549,7 @@ export const homeAbout = [
       com: "10 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b3.webp",
+      cover: CoverImg3,
     },
     {
       id: 4,
@@ -470,7 +558,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b4.webp",
+      cover: CoverImg4,
     },
     {
       id: 5,
@@ -479,7 +567,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b5.webp",
+      cover: CoverImg5,
     },
     {
       id: 6,
@@ -488,29 +576,69 @@ export const homeAbout = [
       com: "12 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b6.webp",
+      cover: CoverImg6,
     },
   ]
-  export const testimonal = [
+  export const testimonial = [
     {
       id: 1,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t1.webp",
+      cover: testimonialCoverImg1,
     },
     {
       id: 2,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t2.webp",
+      cover: testimonialCoverImg2,
     },
     {
       id: 3,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t3.webp",
+      cover: testimonialCoverImg3,
     },
   ]
+
+  export const packagesData = [
+    {
+      title: "Repairing Plan",
+      price: "25",
+      features: [
+        { text: "Routine maintenance and minor repairs", included: true },
+        { text: "On-call support for emergency repairs", included: true },
+        { text: "Annual safety and functionality inspection", included: true },
+        { text: "Access to discounted repair services", included: true },
+        { text: "Priority service scheduling", included: false },
+        { text: "Full system replacement options", included: false },
+      ]
+    },
+    {
+      title: "Emergency Plan",
+      price: "50",
+      isPopular: true,
+      features: [
+        { text: "24/7 emergency repair service", included: true },
+        { text: "Rapid response for urgent repairs", included: true },
+        { text: "Comprehensive diagnostic checks", included: true },
+        { text: "Priority access to repair personnel", included: true },
+        { text: "Full replacement if repair isn’t feasible", included: false },
+        { text: "Exclusive annual check-up and maintenance", included: false },
+      ]
+    },
+    {
+      title: "Replacement Plan",
+      price: "75",
+      features: [
+        { text: "Complete system replacement service", included: true },
+        { text: "Project planning and cost estimation", included: true },
+        { text: "Customized solutions for unique requirements", included: true },
+        { text: "Includes removal of old equipment", included: true },
+        { text: "One-year warranty on all replacements", included: false },
+        { text: "Free follow-up inspections", included: false },
+      ]
+    }
+  ];

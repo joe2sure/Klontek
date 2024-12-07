@@ -47,7 +47,7 @@ const Header = () => {
             </li>
           </ul>
           <div className="start">
-            <div className="button">GET CERTIFICATE</div>
+            <div className="button">Join the AI Academy</div>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? (

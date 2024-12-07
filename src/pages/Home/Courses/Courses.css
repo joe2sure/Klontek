@@ -2,7 +2,7 @@
     padding: 50px 0;
   }
   .coursesCard .items {
-    background-color: #fff;
+    background-color: var(--backgroundLight);
     padding: 30px;
     text-align: center;
   }
@@ -66,7 +66,7 @@
   }
   .online .box {
     box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
-    background-color: #fff;
+    background-color: var(--backgroundLight);
     padding: 30px 20px;
     transition: 0.5s;
   }
@@ -110,7 +110,7 @@
     left: 0;
   }
   .online .box:hover h1 {
-    color: #fff;
+    color: var(--backgroundLight);
   }
   /*-------------online---------*/
   @media screen and (max-width: 768px) {

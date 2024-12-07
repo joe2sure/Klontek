@@ -1,0 +1,84 @@
+/* General section styles */
+.advantage-section {
+    background-color: #f9fafb;
+    padding: 80px 0;
+    margin-bottom: 96px;
+  }
+  
+  .advantage-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .advantage-title {
+    font-size: 3rem;
+    color: #1e3a8a; /* Theme blue */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .advantage-subtitle {
+    font-size: 1.125rem;
+    color: #9ca3af; /* Gray-400 */
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 48px;
+  }
+  
+  /* Content layout */
+  .advantage-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two cards per row */
+    gap: 20px; /* Space between cards */
+  }
+  
+  .advantage-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .offset {
+    margin-top: -16px;
+  }
+  
+  /* Individual item styles */
+  .advantage-item {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d8b4fe; /* Light-theme purple */
+    transition: transform 0.5s ease;
+    height: 150px; /* Adjust card height */
+  }
+  
+  .advantage-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .advantage-image {
+    width: 30%; /* Shrink the image to fit smaller cards */
+  }
+  
+  .advantage-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  
+  .advantage-item-title {
+    font-size: 1.5rem;
+    color: #1e3a8a; /* Theme blue */
+    margin-bottom: 8px;
+  }
+  
+  .advantage-item-description {
+    font-size: 1rem;
+    color: #9ca3af; /* Gray-400 */
+    font-weight: 300;
+  }
+  
