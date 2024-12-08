@@ -1,0 +1,13 @@
+.coming-soon-tag {
+    background-color: var(--primary-color-red);
+    color: var(--backgroundLight);
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    transform: translateY(-2px);
+  }

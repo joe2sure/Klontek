@@ -5,14 +5,14 @@ import './Discuss.css';
 
 export default function Discuss() {
   return (
-    <Fade direction="up" triggerOnce>
+    <Fade direction="up">
       <section className="discuss-section">
         <div className="discuss-container">
           <div className="discuss-header">
             <h1>
               Have an awesome project in mind?
             </h1>
-            <Fade direction="up" triggerOnce delay={500}>
+            <Fade direction="up" delay={500}>
               <Button 
                 href="/discuss-project" 
                 type="link" 
@@ -22,7 +22,7 @@ export default function Discuss() {
               </Button>
             </Fade>
           </div>
-          <Fade delay={300} triggerOnce>
+          <Fade delay={300} >
             <p className="discuss-text">
               Let's discuss it and make your dream software come true!
             </p>

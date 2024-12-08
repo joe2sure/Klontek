@@ -70,6 +70,12 @@ import oh10 from '../assets/images/courses/outline/o11.1.png';
 import oh11 from '../assets/images/courses/outline/o12.1.png';
 import oh12 from '../assets/images/courses/outline/o11.1.png';
 
+// Import avatar images for the right section
+import avatar1 from '../assets/images/avatar/testimonial_pic.svg';
+import avatar2 from '../assets/images/avatar/testimonial_pic2.svg';
+import avatar3 from '../assets/images/avatar/testimonial_pic3.svg';
+import avatar4 from '../assets/images/avatar/testimonial_pic2.svg';
+
 
 
 export const ServicesData = [
@@ -86,6 +92,21 @@ export const ServicesData = [
     {
       title: 'UI/UX Design',
       imageUrl: UIUX,
+      animation: 'right',
+    },
+    {
+      title: 'AI Integrated Solutions',
+      imageUrl: Mobile,
+      animation: 'right',
+    },
+    {
+      title: 'GRAPHIC DESIGN',
+      imageUrl: UIUX,
+      animation: 'up',
+    },
+    {
+      title: 'TECH HARDWARE SUPPLIES',
+      imageUrl: Web,
       animation: 'right',
     },
   ];
@@ -237,26 +258,26 @@ export const homeAbout = [
       courTeacher: [
         {
           dcover: backImg,
-          name: "by John Smith",
+          name: "by Joseph Onwe",
           totalTime: "50 lectures (190 hrs)",
         },
       ],
-      priceAll: "$100 All Course",
-      pricePer: "$15 per month",
+      priceAll: "₦200k All Course",
+      pricePer: "₦30k per month",
     },
     {
       id: 2,
       cover: c2,
-      coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+      coursesName: "Enhancing Adobe Photoshop CC Skills",
       courTeacher: [
         {
           dcover: backImg,
-          name: "by Ram Gurung",
+          name: "by Ikenna Isaac",
           totalTime: "30 lectures (125 hrs)",
         },
       ],
-      priceAll: "$200 All Course",
-      pricePer: "$25 per month",
+      priceAll: "₦120k All Course",
+      pricePer: "₦20k per month",
     },
     {
       id: 3,
@@ -265,40 +286,40 @@ export const homeAbout = [
       courTeacher: [
         {
           dcover: backImg,
-          name: "by Saroj Nepal",
+          name: "by Joel",
           totalTime: "50 lectures (50 hrs)",
         },
       ],
-      priceAll: "$50 All Course",
-      pricePer: "$5 per month",
+      priceAll: "₦180k All Course",
+      pricePer: "₦40k per month",
     },
     {
       id: 4,
       cover: c4,
-      coursesName: "Introducing to Programming with WordPress",
+      coursesName: "Programming with WordPress",
       courTeacher: [
         {
           dcover: backImg,
-          name: "by Prabin Thapa Mager",
+          name: "by Melvin Onuorah",
           totalTime: "20 lectures (20 hrs)",
         },
       ],
-      priceAll: "$30 All Course",
-      pricePer: "$3 per month",
+      priceAll: "₦100k All Course",
+      pricePer: "₦20k per month",
     },
     {
       id: 5,
       cover: c5,
-      coursesName: "Introducing to Programming with ReactJS",
+      coursesName: "Programming with ReactJS",
       courTeacher: [
         {
           dcover: backImg,
-          name: "by Sunil Bishowkaram",
+          name: "by Joseph Onwe",
           totalTime: "100 lectures (150 hrs)",
         },
       ],
-      priceAll: "$300 All Course",
-      pricePer: "$30 per month",
+      priceAll: "₦150k All Course",
+      pricePer: "₦40k per month",
     },
     {
       id: 6,
@@ -307,12 +328,12 @@ export const homeAbout = [
       courTeacher: [
         {
           dcover: backImg,
-          name: "by Sunil Bishowkaram",
+          name: "by Joel",
           totalTime: "200 lectures (300 hrs)",
         },
       ],
-      priceAll: "$500 All Course",
-      pricePer: "$80 per month",
+      priceAll: "₦250k All Course",
+      pricePer: "₦45k per month",
     },
     {
       id: 7,
@@ -321,40 +342,166 @@ export const homeAbout = [
       courTeacher: [
         {
           dcover: backImg,
-          name: "by Price",
+          name: "by Daniel",
           totalTime: "20 lectures (50 hrs)",
         },
       ],
-      priceAll: "$20 All Course",
-      pricePer: "$2 per month",
+      priceAll: "₦70k All Course",
+      pricePer: "₦15k per month",
     },
     {
       id: 8,
       cover: c8,
-      coursesName: "Introducing to with JAVA",
+      coursesName: "Programing with JAVA/Kotlin for mobile development",
       courTeacher: [
         {
           dcover: backImg,
-          name: "by Petter",
+          name: "by Bethel Korede",
           totalTime: "80 lectures (200 hrs)",
         },
       ],
-      priceAll: "$200 All Course",
-      pricePer: "$40 per month",
+      priceAll: "₦250k All Course",
+      pricePer: "₦45k per month",
     },
     {
       id: 9,
       cover: c9,
-      coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+      coursesName: "Graphic Design",
       courTeacher: [
         {
           dcover: backImg,
-          name: "by Petter",
+          name: "by Favour",
           totalTime: "50 lectures (50 hrs)",
         },
       ],
-      priceAll: "$20 All Course",
-      pricePer: "$3 per month",
+      priceAll: "₦100k All Course",
+      pricePer: "₦30k per month",
+    },
+    {
+      id: 10,
+      cover: c9,
+      coursesName: "Data Analysis",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Melvin Onuorah",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦180k All Course",
+      pricePer: "₦45k per month",
+    },
+    {
+      id: 11,
+      cover: c9,
+      coursesName: "Mobile App Developmnt with Flutter/ReactNative",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Joseph Onwe",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦200k All Course",
+      pricePer: "₦45k per month",
+    },
+    {
+      id: 12,
+      cover: c9,
+      coursesName: "Backend Development with c#/.Net",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Charles",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦200k All Course",
+      pricePer: "₦45k per month",
+    },
+    {
+      id: 13,
+      cover: c9,
+      coursesName: "Backend Development with Nodejs/Express",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Joseph Onwe",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦200k All Course",
+      pricePer: "₦45k per month",
+    },
+    {
+      id: 14,
+      cover: c9,
+      coursesName: "Machine Learning ML, Artificial Intelligence AI and Models LLM",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Dr Nwachukwu Gloria",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦300k All Course",
+      pricePer: "₦50k per month",
+    },
+    {
+      id: 15,
+      cover: c9,
+      coursesName: "DevOps (Docker, Github, Jenkins, Kubernetes, Grafana, Prometheus, AWS)",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Ifeyinwa Grace",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦130k All Course",
+      pricePer: "₦30k per month",
+    },
+    {
+      id: 16,
+      cover: c9,
+      coursesName: "Fullstack Web Engineer",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Joel",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦300k All Course",
+      pricePer: "₦50k per month",
+    },
+    {
+      id: 17,
+      cover: c9,
+      coursesName: "Cybersecurity",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Tochukwu Dennis",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦300k All Course",
+      pricePer: "₦45k per month",
+    },
+    {
+      id: 18,
+      cover: c9,
+      coursesName: "Fullstack Mobile Engineer",
+      courTeacher: [
+        {
+          dcover: backImg,
+          name: "by Joseph Onwe",
+          totalTime: "50 lectures (50 hrs)",
+        },
+      ],
+      priceAll: "₦350k All Course",
+      pricePer: "₦55k per month",
     },
   ]
 
@@ -369,20 +516,20 @@ export const homeAbout = [
     {
       cover: o2,
       hoverCover: oh2,
-      courseName: "Art & Design",
-      course: "25 Courses",
+      courseName: "Machine Learning ML and Artificial Intelligence AI",
+      course: "50 Courses",
     },
     {
       cover: o3,
       hoverCover: oh3,
-      courseName: "Computer Science",
+      courseName: "Introduction to Computer Science",
       course: "10 Courses",
     },
     {
       cover: o4,
       hoverCover: oh4,
-      courseName: "History & Archeologic",
-      course: "15 Courses",
+      courseName: "Cybersecurity",
+      course: "30 Courses",
     },
     {
       cover: o5,
@@ -399,13 +546,13 @@ export const homeAbout = [
     {
       cover: o7,
       hoverCover: oh7,
-      courseName: "Health & Fitness",
-      course: "10 Courses",
+      courseName: "Data Science and Analysis",
+      course: "25 Courses",
     },
     {
       cover: o8,
       hoverCover: oh8,
-      courseName: "Marketing",
+      courseName: "Introduction to Robotics",
       course: "30 Courses",
     },
     {
@@ -417,20 +564,20 @@ export const homeAbout = [
     {
       cover: o10,
       hoverCover: oh10,
-      courseName: "Music",
+      courseName: "AI Integration Softwares",
       course: "120 Courses",
     },
     {
       cover: o11,
       hoverCover: oh11,
-      courseName: "Business Administration",
+      courseName: "DevOps Engineering",
       course: "17 Courses",
     },
     {
       cover: o12,
       hoverCover: oh12,
-      courseName: "Web Management",
-      course: "17 Courses",
+      courseName: "Backend development",
+      course: "40 Courses",
     },
   ]
   export const team = [
@@ -579,7 +726,48 @@ export const homeAbout = [
       cover: CoverImg6,
     },
   ]
-  export const testimonial = [
+
+export const homeTestimonials = [
+  {
+    id: 1,
+    text: "Their expertise in delivering innovative software solutions completely transformed our business operations. The team's commitment to excellence and technological innovation was truly remarkable.",
+    author: "Alex Johnson",
+    role: "CTO, TechCorp Inc.",
+    rating: 5,
+    additionalText: "Their AI-driven solutions helped us achieve unparalleled efficiency, and their consultancy empowered our team to think bigger. Highly recommend their services for any organization seeking technological growth.",
+    avatar: avatar1,
+  },
+  {
+    id: 2,
+    text: "Working with them was a game-changer for our organization. Their ability to create AI-driven solutions tailored to our needs exceeded our expectations. They are truly experts in the field.",
+    author: "Stella Nnwankwo",
+    role: "CEO, Future Innovators Hub",
+    rating: 5,
+    additionalText: "Their dedication to democratizing access to AI knowledge is inspiring. They provided not just solutions but also the tools and knowledge to sustain growth. Highly recommended for any business ready to innovate.",
+    avatar: avatar2,
+  },
+  {
+    id: 3,
+    text: "Their passion for revolutionizing technology through AI innovation shines in every project. They developed software that was not only efficient but also impactful, driving real results for our retail business.",
+    author: "Gift Oke",
+    role: "Owner, BrightMart Retail",
+    rating: 4,
+    additionalText: "The team's approach to solving complex challenges with AI-driven strategies was outstanding. I look forward to working with them again on future projects.",
+    avatar: avatar3,
+  },
+  {
+    id: 4,
+    text: "They provided exceptional solutions for our warehouse management system, integrating AI-driven tools that streamlined our logistics. Their innovative approach set them apart.",
+    author: "Isabella Akunanya",
+    role: "Operations Manager, LogisticWare",
+    rating: 5,
+    additionalText: "Their vision for empowering organizations with cutting-edge technology came to life in our project. The results exceeded our expectations, and we highly recommend their services.",
+    avatar: avatar4,
+  },
+];
+
+
+  export const courseTestimonial = [
     {
       id: 1,
       name: "ROGER SCOTT",
@@ -605,40 +793,43 @@ export const homeAbout = [
 
   export const packagesData = [
     {
-      title: "Repairing Plan",
-      price: "25",
+      title: "AI Literacy Starter",
+      price: "899.99",
       features: [
-        { text: "Routine maintenance and minor repairs", included: true },
-        { text: "On-call support for emergency repairs", included: true },
-        { text: "Annual safety and functionality inspection", included: true },
-        { text: "Access to discounted repair services", included: true },
-        { text: "Priority service scheduling", included: false },
-        { text: "Full system replacement options", included: false },
-      ]
+        { text: "Access to basic AI and software development tutorials", included: true },
+        { text: "Monthly webinar on emerging tech trends", included: true },
+        { text: "Community forum membership", included: true },
+        { text: "Introductory AI project guidance", included: true },
+        { text: "Advanced course discounts", included: false },
+        { text: "Personal mentorship", included: false }
+      ],
+      description: "Kickstart your AI journey with foundational learning resources"
     },
     {
-      title: "Emergency Plan",
-      price: "50",
+      title: "Innovation Accelerator",
+      price: "1299.99",
       isPopular: true,
       features: [
-        { text: "24/7 emergency repair service", included: true },
-        { text: "Rapid response for urgent repairs", included: true },
-        { text: "Comprehensive diagnostic checks", included: true },
-        { text: "Priority access to repair personnel", included: true },
-        { text: "Full replacement if repair isn’t feasible", included: false },
-        { text: "Exclusive annual check-up and maintenance", included: false },
-      ]
+        { text: "Comprehensive AI integration training program", included: true },
+        { text: "Hands-on project development workshops", included: true },
+        { text: "Access to AI toolkit and development resources", included: true },
+        { text: "Quarterly personalized tech consultation", included: true },
+        { text: "Scholarship opportunity for advanced courses", included: false },
+        { text: "Exclusive networking with tech professionals", included: false }
+      ],
+      description: "Elevate your skills with intensive AI and software development training"
     },
     {
-      title: "Replacement Plan",
-      price: "75",
+      title: "Tech Visionary",
+      price: "1999.99",
       features: [
-        { text: "Complete system replacement service", included: true },
-        { text: "Project planning and cost estimation", included: true },
-        { text: "Customized solutions for unique requirements", included: true },
-        { text: "Includes removal of old equipment", included: true },
-        { text: "One-year warranty on all replacements", included: false },
-        { text: "Free follow-up inspections", included: false },
-      ]
+        { text: "Complete AI and software development bootcamp", included: true },
+        { text: "Customized project mentorship", included: true },
+        { text: "Advanced AI integration consulting", included: true },
+        { text: "Portfolio development support", included: true },
+        { text: "Entrepreneurship and startup guidance", included: false },
+        { text: "Direct connection to potential investors", included: false }
+      ],
+      description: "Comprehensive program for aspiring tech innovators and entrepreneurs"
     }
   ];

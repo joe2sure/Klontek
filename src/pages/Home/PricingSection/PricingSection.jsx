@@ -35,7 +35,7 @@ const PricingSection = () => {
               {pkg.isPopular && <div className="pricing-popular-tag">Most Popular</div>}
               <h3 className="pricing-package-title">{pkg.title}</h3>
               <div className="pricing-package-price">
-                <span className="pricing-currency">£</span>
+                <span className="pricing-currency">₦</span>
                 <span className="pricing-amount">{pkg.price}</span>
                 <span className="pricing-period">/ Per Month</span>
               </div>
@@ -52,43 +52,8 @@ const PricingSection = () => {
           ))}
         </div>
       </div>
-
-      {/* <div className="pricing-footer-section">
-        <p className="pricing-footer-text">
-          We are committed to providing exceptional service at competitive rates. All packages come with flexible billing options to accommodate project needs. For more details on our packages or custom solutions, feel free to <a href="mailto:info@example.com">contact us</a>.
-        </p>
-        <div className="pricing-sponsors-container">
-          {sponsors.map((sponsor, index) => (
-            <div key={index} className="pricing-sponsor-logo">
-              <img src={sponsor.logo} alt={sponsor.name} />
-            </div>
-          ))}
-        </div>
-      </div> */}
     </section>
   );
 };
 
 export default PricingSection;
-
-
-// import React from "react";
-// import TextHeader from "../../../components/TextHeader/TextHeader";
-// import PriceCard from "../../../components/Pricing/PriceCard";
-
-
-
-// const PricingSection = () => {
-//   return (
-//     <>
-//       <section className='hprice padding'>
-//         <TextHeader subtitle='OUR PRICING' title='Pricing & Packages' />
-//         <div className='price container grid'>
-//           <PriceCard />
-//         </div>
-//       </section>
-//     </>
-//   )
-// }
-
-// export default PricingSection

@@ -17,21 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/* .icon {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50%;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.3);
-  color: var(--primary-color);
-  transition: 0.5s;
-} */
-/* .icon:hover {
-  cursor: pointer;
-  background-color: var(--primary-color);
-  color: var(--backgroundLight);
-} */
+
 a {
   text-decoration: none;
 }
@@ -84,6 +70,8 @@ p {
   line-height: 30px;
   font-size: 18px;
 }
+
+
 
 .back {
   background-image: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706227200&semt=ais");

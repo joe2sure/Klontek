@@ -1,5 +1,6 @@
 import React from "react";
-import "./Courses.css";
+import { Fade } from 'react-awesome-reveal';
+// import "./Courses.css";
 import { online } from "../../../data/dummyData";
 import TextHeader from "../../../components/TextHeader/TextHeader";
 
@@ -8,17 +9,25 @@ const ExploreCourses = () => {
     <>
       <section className='online'>
         <div className='container'>
-          <TextHeader subtitle='COURSES' title='Browse Our Online Courses' />
+        <Fade direction="right" >
+            <TextHeader 
+              subtitle='COURSES' 
+              title='Browse Our Online Courses'
+              comingSoon={true}
+            />
+          </Fade>
           <div className='content grid3'>
-            {online.map((val) => (
-              <div className='box'>
-                <div className='img'>
-                  <img src={val.cover} />
-                  <img src={val.hoverCover} alt='' className='show' />
+            {online.map((val, index) => (
+              <Fade direction="left" delay={500 * index} key={index}>
+                <div className='box'>
+                  <div className='img'>
+                    <img src={val.cover} alt={val.courseName} />
+                    <img src={val.hoverCover} alt='' className='show' />
+                  </div>
+                  <h1>{val.courseName}</h1>
+                  <span>{val.course}</span>
                 </div>
-                <h1>{val.courseName}</h1>
-                <span>{val.course}</span>
-              </div>
+              </Fade>
             ))}
           </div>
         </div>
@@ -27,4 +36,4 @@ const ExploreCourses = () => {
   )
 }
 
-export default ExploreCourses
+export default ExploreCourses;

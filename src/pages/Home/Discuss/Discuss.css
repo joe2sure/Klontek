@@ -1,4 +1,3 @@
-/* General Section Styles */
 .discuss-section {
     display: flex;
     justify-content: center;
@@ -12,8 +11,8 @@
     width: 83.33%;
     max-width: 1280px;
     border-radius: 16px;
-    background-color: #5b21b6; /* Tailwind's bg-theme-purple */
-    color: #f3f4f6; /* Tailwind's text-gray-100 */
+    background-color: #5b21b6; 
+    color: #f3f4f6;
     padding: 3.5rem 1rem;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   }
@@ -51,14 +50,14 @@
   
   .discuss-header h1 {
     width: 66.67%;
-    font-size: 3rem; /* Tailwind's text-5xl */
+    font-size: 3rem; 
     line-height: 1.2;
     font-weight: 600;
   }
   
   @media (min-width: 640px) {
     .discuss-header h1 {
-      font-size: 4rem; /* Tailwind's text-6xl */
+      font-size: 4rem; 
     }
   }
   
@@ -67,15 +66,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 14rem; /* Tailwind's w-56 */
-    height: 5rem; /* Tailwind's h-20 */
+    width: 14rem; 
+    height: 5rem; 
     padding: 1.25rem;
-    font-size: 1.25rem; /* Tailwind's text-xl */
+    font-size: 1.25rem; 
     font-weight: 600;
-    color: #1e40af; /* Tailwind's text-blue-800 */
-    background-color: #fbbf24; /* Tailwind's bg-yellow-300 */
-    border: 2px solid #4c1d95; /* Tailwind's border-dark-theme-purple */
-    border-radius: 9999px; /* Full border radius for a pill button */
+    color: #1e40af; 
+    background-color: #fbbf24; 
+    border: 2px solid #4c1d95; 
+    border-radius: 9999px; 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     transition: transform 0.6s ease;
   }
@@ -86,16 +85,16 @@
   
   @media (min-width: 1024px) {
     .discuss-button {
-      width: 24rem; /* Tailwind's lg:w-96 */
-      height: 6rem; /* Tailwind's lg:h-24 */
+      width: 24rem; 
+      height: 6rem; 
     }
   }
   
   @media (min-width: 1280px) {
     .discuss-button {
-      width: 14rem; /* Tailwind's xl:w-56 */
-      height: 5rem; /* Tailwind's xl:h-20 */
-      font-size: 1.25rem; /* Tailwind's xl:text-xl */
+      width: 14rem; 
+      height: 5rem; 
+      font-size: 1.25rem; 
     }
   }
   
@@ -103,26 +102,27 @@
   .discuss-text {
     font-weight: 300;
     padding: 1.25rem;
-    font-size: 1.125rem; /* Tailwind's text-lg */
+    font-size: 1.125rem; 
     margin-bottom: 0.25rem;
+    color: var(--backgroundLight);
   }
   
   @media (min-width: 640px) {
     .discuss-text {
       padding: 0;
-      font-size: 1.25rem; /* Tailwind's text-xl */
+      font-size: 1.25rem; 
     }
   }
   
   @media (min-width: 1024px) {
     .discuss-text {
-      font-size: 1.5rem; /* Tailwind's lg:text-2xl */
+      font-size: 1.5rem;
     }
   }
   
   @media (min-width: 1280px) {
     .discuss-text {
-      font-size: 1.25rem; /* Tailwind's xl:text-xl */
+      font-size: 1.25rem; 
     }
   }
   

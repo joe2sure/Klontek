@@ -1,5 +1,6 @@
   .service-container {
     background-color: var(--gray-50);
+      text-align: center;
   }
   
   .service-wrapper {

@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
   /* Title and Subtitle */
@@ -51,14 +52,7 @@
     }
   }
   
-  /* Portfolio Card */
-  /* .portfolio-card {
-    border-radius: 1rem;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    width: auto;
-    margin: 0.75rem;
-    transition: transform 0.5s;
-  } */
+
 
 /* Portfolio Card */
 .portfolio-card {
@@ -79,11 +73,7 @@
     position: relative;
   }
   
-  /* .portfolio-card-image {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    z-index: 0;
-  } */
+
 /* Portfolio Card Image */
 .portfolio-card-image {
     width: 100%; /* Ensure the image fits the card width */
@@ -123,9 +113,7 @@
     color: #e5e7eb;
   }
   
-  /* .portfolio-card-content {
-    padding: 1rem 0;
-  } */
+
 /* Portfolio Card Content */
 .portfolio-card-content {
     padding: 1rem; /* Add consistent padding */
@@ -146,37 +134,55 @@
   
   /* See More Button */
   .portfolio-see-more-button {
-    display: flex;
+    display: flex !important;
     width: 9rem;
     height: 3rem;
-    color: #7c3aed;
-    border: 1px solid #7c3aed;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 9999px;
     align-items: center;
     justify-content: center;
+    gap: 0.5rem; 
     margin-top: 3.5rem;
     transition: background-color 0.3s, color 0.3s;
   }
+
+  .portfolio-see-more-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .portfolio-see-more-content:hover {
+    color: var(--backgroundLight);
+    background-color: var(--primary-color);
+  }
   
   .portfolio-see-more-button:hover {
-    background-color: #7c3aed;
-    color: white;
+    background-color: var(--primary-color);
   }
   
   .portfolio-see-more-text {
     font-weight: normal;
-    padding: 0.75rem 0;
+    color: var(--primary-color);
+    padding: 0;
+    margin: 0;
     font-size: 1rem;
   }
-  
+  .portfolio-see-more-text:hover {
+    color: white !important;
+  }
   .portfolio-see-more-icon {
     width: 1rem;
     height: 1rem;
+    flex-shrink: 0;
   }
   
   .portfolio-see-more-icon-offset {
-    margin-left: -0.5rem;
+    margin-left: -0.2rem;
   }
+
   
   /* Responsive Adjustments */
   @media (min-width: 640px) {

@@ -17,7 +17,7 @@ const AboutSection = () => {
        
           
           <div className='right row'>
-            <Fade direction="right" triggerOnce>
+            <Fade direction="right" >
               <TextHeader 
                 subtitle='EMPOWERING TECHNOLOGY' 
                 title='Revolutionizing Tech Education and Innovation in Africa' 
@@ -30,7 +30,7 @@ const AboutSection = () => {
                   key={index} 
                   direction={index % 2 === 0 ? "left" : "right"} 
                   delay={500 * index} 
-                  triggerOnce
+                  
                 >
                   <div className='item flexSB'>
                     <div className='img'>
