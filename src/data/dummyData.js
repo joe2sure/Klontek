@@ -76,6 +76,24 @@ import avatar2 from '../assets/images/avatar/testimonial_pic2.svg';
 import avatar3 from '../assets/images/avatar/testimonial_pic3.svg';
 import avatar4 from '../assets/images/avatar/testimonial_pic2.svg';
 
+// About page image imports
+import manag_photo1 from '../assets/images/Joe.png';
+import manag_photo2 from '../assets/images/melvin.png';
+
+
+// TeamMembers Page image imports
+import CEO from '../assets/images/team-members/Joe.png';
+import HRD from '../assets/images/team-members/melvin.png';
+import Finance from '../assets/images/team-members/yakubu.png';
+import ProjectManager from '../assets/images/team-members/samuel.png';
+import Frontend1 from '../assets/images/team-members/osas.png';
+// import Frontend2 from '../assets/images/TeamMembers/Frontend2.jpg';
+// import Backend1 from '../assets/images/TeamMembers/Backend1.jpg';
+// import Backend2 from '../assets/images/TeamMembers/Backend2.jpg';
+// import Mobile1 from '../assets/images/TeamMembers/Mobile1.jpg';
+// import Mobile2 from '../assets/images/TeamMembers/Mobile2.jpg';
+// import UIUX1 from '../assets/images/TeamMembers/UIUX1.jpg';
+// import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
 
 
 export const ServicesData = [
@@ -833,3 +851,133 @@ export const homeTestimonials = [
       description: "Comprehensive program for aspiring tech innovators and entrepreneurs"
     }
   ];
+
+
+// ============== aboutData.js  ==============
+
+export const companyIntro = {
+  title: "Empowering Growth through Innovation and AI",
+  paragraphs: [
+    "Klontek.ai was founded to revolutionize how individuals and organizations leverage software and AI technologies to foster growth and innovation.",
+    "We believe that technology should be accessible to everyone, which is why we are committed to democratizing access to AI education, providing tailored consultancy services, and delivering innovative solutions that drive tangible results.",
+    "Our mission and vision guide us in creating opportunities for technological advancement, empowering youth and organizations, and contributing to a brighter, more inclusive technological future in Africa and beyond."
+  ]
+};
+
+export const visionSectionData = [
+  {
+    title: "Vision",
+    description: "To be a global leader in software development and AI innovation, revolutionizing how technology impacts everyday life, and becoming the premier AI technology academy in West Africa that empowers youth with practical, degree-independent skills to build AI-integrated solutions."
+  },
+  {
+    title: "Mission",
+    description: "To empower individuals and organizations by delivering innovative software and AI-driven solutions, fostering technological growth through tailored consultancy, and democratizing access to AI education in Africa and beyond."
+  },
+  {
+    title: "Goals",
+    description: [
+      "Community Engagement: Host free webinars and workshops to introduce AI basics to youth and organizations.",
+      "Build a Knowledge Hub: Create an online platform offering resources like tutorials, blogs, and forums about AI and software development.",
+      "Expand Service Offerings: Deliver a portfolio of cutting-edge web, mobile, and desktop applications integrated with AI capabilities.",
+      "Establish an AI Technology Academy: Launch the first AI Academy in West Africa, focusing on accessible, hands-on learning opportunities.",
+      "Foster AI Literacy Among Youth: Ensure a significant percentage of African youth understand AI and can develop AI-integrated solutions without formal degrees.",
+      "Develop Proprietary AI Solutions: Create proprietary AI systems and tools tailored for industries such as healthcare, education, and finance.",
+      "Expand Globally: Enter international markets, offering consultancy and software development services worldwide."
+    ]
+  }
+];
+
+export const managementTeam = [
+  {
+    name: "O.I. Joseph",
+    title: "Co-Founder & Director",
+    photo: manag_photo1,
+    description: "Joseph is a visionary leader with extensive experience in software development and AI solutions. His expertise spans strategic planning, technical consultancy, and fostering innovation to drive growth in organizations.",
+    socialLinks: {
+      twitter: "/",
+      linkedin: "/"
+    }
+  },
+  {
+    name: "Dr. O.U. Emmanuel",
+    title: "Co-Founder & Director",
+    photo: manag_photo2,
+    description: [
+      "Dr. Emmanuel is an entrepreneur and AI advocate with over a decade of experience in technology innovation. He is passionate about bridging the gap between education and technology, empowering youth with skills to succeed in the AI-driven world.",
+      "He holds a doctorate in Computer Science and specializes in AI integration, consultancy, and fostering partnerships with educational institutions."
+    ],
+    socialLinks: {
+      twitter: "/",
+      linkedin: "https://www.linkedin.com/in/dr-ou-emmanuel/"
+    }
+  }
+];
+
+
+export const teamSectionHeader = {
+  title: "Our Team",
+  description: "Leveraging their vast experience within the Telecom value added services industry, Symbiotic's leadership team is dedicated to meet and exceed customer expectations with innovative and cost-effective solutions, industry know-how and unmatched services."
+};
+
+export const TeamMembersPageData = [
+  {
+    name: 'Rach David',
+    position: 'CEO',
+    imageUrl: CEO,
+  },
+  {
+    name: 'Pauline Sydney',
+    position: 'HRD',
+    imageUrl: HRD,
+  },
+  {
+    name: 'Granger Watterson',
+    position: 'Finance',
+    imageUrl: Finance,
+  },
+  {
+    name: 'Tom Jimmy',
+    position: 'Project Manager',
+    imageUrl: ProjectManager,
+  },
+  {
+    name: 'Jim Hendrix',
+    position: 'Front-end Developer',
+    imageUrl: Frontend1,
+  },
+  // {
+  //   name: 'Calvin Max',
+  //   position: 'Front-end Developer',
+  //   imageUrl: Frontend2,
+  // },
+  // {
+  //   name: 'Hawkins Jim',
+  //   position: 'Back-end Developer',
+  //   imageUrl: Backend1,
+  // },
+  // {
+  //   name: 'Don Bizaro',
+  //   position: 'Back-end Developer',
+  //   imageUrl: Backend2,
+  // },
+  // {
+  //   name: 'Bill Markinson',
+  //   position: 'Mobile Developer',
+  //   imageUrl: Mobile1,
+  // },
+  // {
+  //   name: 'Igor Kavarov',
+  //   position: 'Mobile Developer',
+  //   imageUrl: Mobile2,
+  // },
+  // {
+  //   name: 'Freddie Curl',
+  //   position: 'UI/UX Designer',
+  //   imageUrl: UIUX2,
+  // },
+  // {
+  //   name: 'Monica Lovegood',
+  //   position: 'UI/UX Designer',
+  //   imageUrl: UIUX1,
+  // },
+];

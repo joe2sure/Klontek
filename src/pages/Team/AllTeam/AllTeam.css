@@ -1,0 +1,79 @@
+/* Container styles */
+.all-team-container {
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Grid layout for the team members */
+  .all-team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px; /* Space between cards */
+    justify-items: center;
+  }
+  
+  @media (min-width: 640px) {
+    .all-team-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 56px; /* Space for small devices */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .all-team-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px; /* Space for large devices */
+    }
+  }
+  
+  /* Card styles */
+  .team-member-card {
+    width: 176px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e0d7f7; /* Light purple border */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+  }
+  
+  .team-member-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image wrapper */
+  .team-member-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Space below the image */
+  }
+  
+  /* Image styles */
+  .team-member-image {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+  }
+  
+  /* Name styles */
+  .team-member-name {
+    color: #3749b7; /* Theme blue */
+    text-align: center;
+    font-size: 1.25rem; /* 20px */
+    margin-bottom: 4px;
+  }
+  
+  /* Position styles */
+  .team-member-position {
+    font-weight: 300;
+    color: #9ca3af; /* Light gray */
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  

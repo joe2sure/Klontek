@@ -1,14 +1,23 @@
-import React from "react"
-import "./about.css"
-import Back from "../common/back/Back"
-import AboutCard from "./AboutCard"
-import AboutSection from "../Home/AboutSection/aboutSection"
+import React from "react";
+import "./About.css";
+import AboutSection from "../Home/AboutSection/aboutSection";
+import Back from "../../components/Back.jsx"
+import BioSection from "./Bio/BioSection.jsx";
+import VisionSection from "./Vision/VisionSection.jsx";
+import ManagementSection from "./Management/ManagementSection.jsx";
+
 
 const About = () => {
   return (
     <>
       <Back title='About Us' />
-      <AboutSection />
+      <main id="main">   
+        <BioSection />
+        <VisionSection />
+        <ManagementSection />
+        <AboutSection />
+      </main>
+
     </>
   )
 }
