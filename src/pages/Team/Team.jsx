@@ -13,9 +13,16 @@ const TeamPage = () => {
 
   return (
     <>
-      <Back title='Expert Team' />
+      <Back title='Team' />
+      <main id="main">   
       <HeroTeam />
       <AllTeam data={TeamMembersPageData} />
+        {/* <ManagementSection />
+        <AboutSection /> */}
+      </main>
+      {/* <Back title='Expert Team' />
+      <HeroTeam />
+      <AllTeam data={TeamMembersPageData} /> */}
     </>
   );
 };

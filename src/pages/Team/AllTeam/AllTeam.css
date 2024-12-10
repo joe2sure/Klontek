@@ -24,7 +24,7 @@
   @media (min-width: 1024px) {
     .all-team-grid {
       grid-template-columns: repeat(4, 1fr);
-      gap: 40px; /* Space for large devices */
+      gap: 40px; 
     }
   }
   
@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #e0d7f7; /* Light purple border */
+    border: 1px solid #e0d7f7; 
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s ease;
@@ -50,7 +50,7 @@
   .team-member-image-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px; /* Space below the image */
+    margin-bottom: 20px; 
   }
   
   /* Image styles */
@@ -58,21 +58,21 @@
     width: 128px;
     height: 128px;
     border-radius: 50%;
-    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    object-fit: cover; 
   }
   
   /* Name styles */
   .team-member-name {
-    color: #3749b7; /* Theme blue */
+    color: #3749b7; 
     text-align: center;
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.25rem; 
     margin-bottom: 4px;
   }
   
   /* Position styles */
   .team-member-position {
     font-weight: 300;
-    color: #9ca3af; /* Light gray */
+    color: #9ca3af; 
     text-align: center;
     margin-bottom: 12px;
   }

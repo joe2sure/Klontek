@@ -5,8 +5,7 @@ import Footer from './components/Footer/Footer.jsx';
 import Home from './pages/Home/Home.jsx';
 import About from "./pages/About/About.jsx";
 import TeamPage from "./pages/Team/Team.jsx";
-// import About from "";
-
+import ServicePage from "./pages/Service/ServicePage.jsx";
 
 
 function App() {
@@ -17,8 +16,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<TeamPage />} />
-        {/* <Route path="/courses" element={<CourseHome />} />
-        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/service" element={<ServicePage />} />
+        {/* <Route path="/pricing" element={<Pricing />} />
         <Route path="/journal" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/event" element={<Event />} /> */}
