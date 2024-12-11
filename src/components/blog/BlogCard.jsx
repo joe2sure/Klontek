@@ -1,5 +1,5 @@
-import React from "react"
-import { blog } from "../../dummydata"
+import React from "react";
+import { blog } from "../../data/dummyData.js";
 
 const BlogCard = () => {
   return (

@@ -1,10 +1,11 @@
-import React from "react"
-import PriceCard from "../../components/Pricing/PriceCard"
-import Faq from "../../components/Pricing/Faq"
-import Back from "../../components/Back.js";
+import React from "react";
+import PriceCard from "../../components/Pricing/PriceCard";
+import Back from "../../components/Back";
+import Faq from "../../components/Pricing/Faq";
+import '../../components/Pricing/Pricing.css';
 
 
-const Pricing = () => {
+const PricingPage = () => {
   return (
     <>
       <Back title='Choose The Right Plan' />
@@ -18,4 +19,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default PricingPage

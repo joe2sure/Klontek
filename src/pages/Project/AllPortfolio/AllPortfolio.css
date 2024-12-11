@@ -1,0 +1,36 @@
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .portfolio-tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.25rem;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+  }
+  
+  @media (min-width: 640px) {
+    .portfolio-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .portfolio-grid {
+      gap: 2rem;
+    }
+  }

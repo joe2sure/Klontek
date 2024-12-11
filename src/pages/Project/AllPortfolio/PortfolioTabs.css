@@ -1,0 +1,17 @@
+.portfolio-tab-button {
+    font-weight: normal;
+    padding: 0.5rem 1.25rem;
+    margin-right: 0.75rem;
+    color: #6a5acd; /* theme-purple */
+    font-size: 1.125rem;
+    border: 1px solid #6a5acd;
+    border-radius: 9999px;
+    transition: all 0.3s ease;
+  }
+  
+  .portfolio-tab-button:hover,
+  .portfolio-tab-button:focus {
+    background-color: #6a5acd;
+    color: white;
+    outline: none;
+  }

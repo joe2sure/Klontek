@@ -981,3 +981,72 @@ export const TeamMembersPageData = [
   //   imageUrl: UIUX1,
   // },
 ];
+
+export const Portfolios = [
+  {
+    id: 'asd1293uasdads1',
+    title: 'Recruiting App',
+    imageUrl: Recruiting,
+    type: 'Mobile Apps',
+    responsibility: [
+      'Mobile Development',
+      'UI/UX Design',
+    ],
+    credit: 'https://dribbble.com/shots/15164950-Recruiting-app',
+  },
+  {
+    id: 'asd1293uhjkhkjh2',
+    title: 'Stream+',
+    imageUrl: Stream,
+    type: 'Mobile Apps',
+    responsibility: [
+      'Mobile Development',
+      'UI/UX Design',
+    ],
+    credit: 'https://dribbble.com/shots/15276430-Stream',
+  },
+  {
+    id: 'asd1293uvbvcbbd3',
+    title: 'Freelance',
+    imageUrl: Freelance,
+    type: 'Mobile Apps',
+    responsibility: [
+      'Mobile Development',
+      'UI/UX Design',
+    ],
+    credit: 'https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept',
+  },
+  {
+    id: 'asd1293ufgdfgs4',
+    title: 'Aura',
+    imageUrl: Aura,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+      'UI/UX Design',
+    ],
+    credit: 'https://dribbble.com/shots/15176338-Aura-Website-Main-Page',
+  },
+  {
+    id: 'asd1293ulskmnb5',
+    title: 'Surtido Rico',
+    imageUrl: Surtido,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+      'UI/UX Design',
+    ],
+    credit: 'https://dribbble.com/shots/15173118-Surtido-Rico',
+  },
+  {
+    id: 'asd1293ulkmnbj6',
+    title: 'Courses Management',
+    imageUrl: ManagementApp,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+      'UI/UX Design',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
+];

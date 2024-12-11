@@ -1,0 +1,128 @@
+.discuss-section {
+    display: flex;
+    container: inline-size;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .discuss-container {
+    display: flex;
+    flex-direction: column;
+    width: 83.333%;
+    background-color: #6a5acd; /* theme-purple */
+    color: #f8f8ff;
+    padding: 3.5rem 1.25rem;
+    border-radius: 1rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .discuss-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+    padding: 1.25rem;
+  }
+  
+  .discuss-title {
+    width: 66.667%;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+  
+  .discuss-button {
+    display: flex;
+    background-color: #fff;
+    background-color: #ffd700; /* yellow-300 */
+    color: #00008b; /* blue-800 */
+    font-size: 1.25rem;
+    letter-spacing: 0.025em;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 5rem;
+    padding: 1.25rem;
+    border: 2px solid #4b0082; /* dark-theme-purple */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-radius: 9999px;
+    margin-top: 1.5rem;
+    transition: transform 600ms;
+  }
+  
+  .discuss-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .discuss-description {
+    font-weight: 300;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Responsive Breakpoints */
+  @media (min-width: 640px) {
+    .discuss-container {
+      width: 91.666%;
+      padding: 5rem 3rem;
+    }
+  
+    .discuss-header {
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 2.25rem;
+      padding: 0;
+    }
+  
+    .discuss-title {
+      font-size: 3.75rem;
+    }
+  
+    .discuss-button {
+      margin-top: 0;
+      margin-left: 1rem;
+    }
+  
+    .discuss-description {
+      font-size: 1.25rem;
+      padding: 0;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .discuss-title {
+      font-size: 3.75rem;
+    }
+  
+    .discuss-button {
+      width: 24rem;
+      height: 6rem;
+      font-size: 1.5rem;
+      margin-left: 0;
+    }
+  
+    .discuss-description {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .discuss-container {
+      width: 83.333%;
+    }
+  
+    .discuss-title {
+      font-size: 3.75rem;
+    }
+  
+    .discuss-button {
+      width: 14rem;
+      height: 5rem;
+      font-size: 1.25rem;
+      margin-left: 3rem;
+    }
+  
+    .discuss-description {
+      font-size: 1.25rem;
+    }
+  }

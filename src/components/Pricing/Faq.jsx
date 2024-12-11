@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react"
 import { faqData } from "../../data/dummyData.js"
 import TextHeader from "../TextHeader/TextHeader.jsx"
-import '..'
+// import '..'
 
 const Faq = () => {
   const [click, setClick] = useState(false)
