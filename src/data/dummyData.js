@@ -96,6 +96,13 @@ import Frontend1 from '../assets/images/team-members/osas.png';
 // import UIUX2 from '../assets/images/TeamMembers/UIUX2.jpg';
 
 
+import teamImg1 from '../assets/images/team-members/Joe.png';
+import teamImg2 from '../assets/images/team-members/melvin.png';
+import teamImg3 from '../assets/images/team-members/osas.png';
+import teamImg4 from '../assets/images/team-members/samuel.png';
+import teamImg5 from '../assets/images/team-members/yakubu.png';
+
+
 export const ServicesData = [
     {
       title: 'Web Development',
@@ -598,48 +605,71 @@ export const homeAbout = [
       course: "40 Courses",
     },
   ]
+  
   export const team = [
     {
-      cover: "./images/team/t1.webp",
-      name: "Ph.D Adrian Molises",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: teamImg1,
+      name: "Joseph Ifeanyi Onwe",
+      work: "CEO klontek",
+      discipline: "Bsc Comp. Sci",
+      profession: "Software Engineer",
+      specifications: "Fullstack Developer",
+      stack: "Backend(Node.js/Express), Frontend(React.js/Flutter), DevOps(GitHub, Docker, Jenkins, AWS)",
+      experience: "7yrs",
+      funFact: "Love the experience of travelling and meeting new people and cultures",
     },
     {
-      cover: "./images/team/t2.webp",
-      name: "Ph.D Arthur MaGregor",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: teamImg2,
+      name: "Melvin Chidiebube Onuorah.",
+      work: "Co-founder klontek",
+      discipline: "Bsc. Computer Science",
+      profession: "Data Analyst/Content Writer",
+      specifications: "Business Analytics",
+      stack: "SQL, Tableau, Excel",
+      experience: "4yrs",
+      phone: "08097683764",
+      email: "melvinonuorah17@gmail.com",
+      funFact: "A super fan of Marvel comics and I love travelling to new places",
     },
     {
-      cover: "./images/team/t3.webp",
-      name: "Ph.D Anna Hanzen",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: teamImg3,
+      name: "Osas",
+      work: "Developer and Lead Instructor",
+      discipline: "Bsc Comp. Sci",
+      profession: "UI Designer/Graphics Designer/Media",
+      specifications: "Design",
+      stack: "Figma, Canva",
+      experience: "2yrs",
+      phone: "08104860970",
+      email: "sufficientikaye@gmail.com",
+      funFact: "I have interest in learning more",
     },
     {
-      cover: "./images/team/t4.webp",
-      name: "Ph.D Brian Wooden",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: teamImg4,
+      name: "Bayere Samuel",
+      work: "Developer and Lead Instructor",
+      discipline: "Bsc Comp. Sci",
+      profession: "Graphics Designer/Media",
+      specifications: "Media",
+      stack: "N/A",
+      experience: "6yrs",
+      funFact: "Love what I do and am happy about it",
     },
     {
-      cover: "./images/team/t5.webp",
-      name: "Ph.D Adrian Molises",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
+      cover: teamImg5,
+      name: "Yakubu Halimat Oziohu",
+      work: "Developer and Lead Instructor",
+      discipline: "Bsc Statistics",
+      profession: "Klontek Resource Manager",
+      specifications: "MS Word, Corel Draw, and basic computer skills",
+      stack: "N/A",
+      experience: "3yrs",
+      phone: "08164502055 / 08104427672",
+      email: "yakubuoziohu27@yahoo.com",
+      funFact: "Love meeting people",
     },
-    {
-      cover: "./images/team/t6.webp",
-      name: "Ph.D Arthur MaGregor",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t7.webp",
-      name: "Ph.D Anna Hanzen",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-    {
-      cover: "./images/team/t8.webp",
-      name: "Ph.D Brian Wooden",
-      work: "DEVELOPER AND LEAD INSTRUCTOR",
-    },
-  ]
+  ];
+  
   export const priceData = [
     {
       name: "BASIC PLAN",
@@ -1049,4 +1079,4 @@ export const Portfolios = [
     ],
     credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
   },
-];
+]; 
