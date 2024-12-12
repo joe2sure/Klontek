@@ -12,7 +12,7 @@ const VisionSection = () => {
             <div className="vision-card">
               <h2 className="card-title">Vision</h2>
               <p>
-                To become the world's leading telecom company for value-added services 
+                To become the world's leading AI innovative company from Africa for value-added services and solutions
                 and create an outstanding value for customers and stakeholders.
               </p>
             </div>
@@ -22,7 +22,7 @@ const VisionSection = () => {
             <div className="vision-card">
               <h2 className="card-title">Mission</h2>
               <p>
-                To anticipate the needs of telecom consumers and deliver outstanding 
+                To anticipate the needs of AI induced solutions for consumers and deliver outstanding 
                 products that are value for money.
               </p>
             </div>

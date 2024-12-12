@@ -117,4 +117,45 @@
   }
   /*-------------online---------*/
   @media screen and (max-width: 768px) {
+    .coursesCard .grid2 {
+      display: grid;
+      grid-template-columns: 1fr; /* Single column on mobile */
+      gap: 20px; /* Space between cards */
+    }
+    
+    .coursesCard .items {
+      flex-direction: column; /* Stack content vertically */
+      text-align: center;
+    }
+    
+    .coursesCard .content.flex {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .coursesCard .text {
+      margin-left: 0;
+      margin-top: 15px;
+      text-align: center;
+    }
+    
+    .coursesCard .text h1 {
+      font-size: 24px; /* Smaller font for mobile */
+      line-height: 1.3;
+    }
+    
+    .coursesCard .details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .coursesCard .price {
+      text-align: center;
+      margin: 15px 0;
+    }
+    
+    .coursesCard .outline-btn {
+      width: 100%; /* Full-width button on mobile */
+    }
   }

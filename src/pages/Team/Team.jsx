@@ -1,16 +1,18 @@
-import React from "react"
-import TeamCard from "./TeamCard"
-import "./Team.css"
+import React from "react";
+import TeamCard from "./TeamCard";
+import './Team.css';
+import "../../pages/About/About.css";
+import Back from "../../components/Back";
+import Aboutwrapper from "../Home/AboutSection/aboutWrapper";
+import HeroTeam from './HeroTeam/HeroTeam';
 
-import "../../pages/About/About.css"
-import Back from "../../components/Back"
-import Aboutwrapper from "../Home/AboutSection/aboutWrapper"
 
 const Team = () => {
   return (
     <>
       <Back title='Team' />
       <section className='team padding'>
+        <HeroTeam className='hero-team' />
         <div className='container grid'>
           <TeamCard />
         </div>

@@ -78,7 +78,7 @@ import avatar4 from '../assets/images/avatar/testimonial_pic2.svg';
 
 // About page image imports
 import manag_photo1 from '../assets/images/Joe.png';
-import manag_photo2 from '../assets/images/melvin.png';
+import manag_photo2 from '../assets/images/emma.png';
 
 
 // TeamMembers Page image imports
@@ -621,7 +621,7 @@ export const homeAbout = [
     {
       cover: teamImg2,
       name: "Melvin Chidiebube Onuorah.",
-      work: "Co-founder klontek",
+      work: "COO klontek",
       discipline: "Bsc. Computer Science",
       profession: "Data Analyst/Content Writer",
       specifications: "Business Analytics",
@@ -634,7 +634,7 @@ export const homeAbout = [
     {
       cover: teamImg3,
       name: "Osas",
-      work: "Developer and Lead Instructor",
+      work: "Lead Instructor Klontek",
       discipline: "Bsc Comp. Sci",
       profession: "UI Designer/Graphics Designer/Media",
       specifications: "Design",
@@ -647,7 +647,7 @@ export const homeAbout = [
     {
       cover: teamImg4,
       name: "Bayere Samuel",
-      work: "Developer and Lead Instructor",
+      work: "Lead Instructor Klontek",
       discipline: "Bsc Comp. Sci",
       profession: "Graphics Designer/Media",
       specifications: "Media",
@@ -658,7 +658,7 @@ export const homeAbout = [
     {
       cover: teamImg5,
       name: "Yakubu Halimat Oziohu",
-      work: "Developer and Lead Instructor",
+      work: "HR/Sectary Klontek",
       discipline: "Bsc Statistics",
       profession: "Klontek Resource Manager",
       specifications: "MS Word, Corel Draw, and basic computer skills",
@@ -920,7 +920,7 @@ export const visionSectionData = [
 export const managementTeam = [
   {
     name: "O.I. Joseph",
-    title: "Co-Founder & Director",
+    title: "Co-Founder & CEO",
     photo: manag_photo1,
     description: "Joseph is a visionary leader with extensive experience in software development and AI solutions. His expertise spans strategic planning, technical consultancy, and fostering innovation to drive growth in organizations.",
     socialLinks: {
@@ -930,7 +930,7 @@ export const managementTeam = [
   },
   {
     name: "Dr. O.U. Emmanuel",
-    title: "Co-Founder & Director",
+    title: "Co-Founder",
     photo: manag_photo2,
     description: [
       "Dr. Emmanuel is an entrepreneur and AI advocate with over a decade of experience in technology innovation. He is passionate about bridging the gap between education and technology, empowering youth with skills to succeed in the AI-driven world.",

@@ -10,7 +10,7 @@ import ManagementSection from "./Management/ManagementSection.jsx";
 const About = () => {
   return (
     <>
-      <Back title='About Us' />
+      <Back title='About' />
       <main id="main">   
         <BioSection />
         <VisionSection />

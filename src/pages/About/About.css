@@ -37,7 +37,7 @@
     color: #999999;
   }
   .aboutHome .item:hover {
-    background-color: #1eb2a6;
+    background-color: var(--primary-color);
     color: var(--backgroundLight);
     cursor: pointer;
     box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);

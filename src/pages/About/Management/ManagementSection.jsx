@@ -14,8 +14,8 @@ const ManagementSection = () => {
           <div className="section-header">
             <h2>Our Team</h2>
             <p>
-              Leveraging their vast experience within the Telecom value-added services industry, 
-              Symbiotic's leadership team is dedicated to meet and exceed customer expectations 
+              Leveraging the vast experience within the tech value-added services industry, 
+              Klontek leadership team is dedicated to meet and exceed customer expectations 
               with innovative and cost-effective solutions, industry know-how, and unmatched services.
             </p>
           </div>

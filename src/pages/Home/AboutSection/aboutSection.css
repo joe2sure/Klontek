@@ -46,7 +46,7 @@
     color: var(--backgroundLight);
   }
   /*----------awrapper------------*/
-  .awrapper {
+  /* .awrapper {
     background-image: url("../../../../public/images/awrapper.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +66,54 @@
   .awrapper h3 {
     font-size: 20px;
     font-weight: 500;
+  } */
+
+  .awrapper {
+    background-image: url("../../../../public/images/awrapper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--backgroundLight);
+    padding-top: 0.1rem;
+    /* padding: -2rem 0; */
   }
+  
+  .awrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .awrapper-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .awrapper-img {
+    margin-right: 1rem;
+  }
+  
+  .awrapper-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  
+  .awrapper-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .awrapper-text h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
   /*----------awrapper------------*/
   @media screen and (max-width: 768px) {
     .aboutHome .container {
@@ -75,7 +122,34 @@
     .aboutHome .row {
       width: 100%;
     }
-    .awrapper {
-      height: 50vh;
+    .awrapper-grid {
+      grid-template-columns: 1fr;
     }
+  
+    .awrapper-box {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .awrapper-img {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .awrapper-img img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .awrapper-text h1 {
+      font-size: 2rem;
+    }
+  
+    .awrapper-text h3 {
+      font-size: 1rem;
+    }
+    /* .awrapper {
+      height: 50vh;
+    } */
+
   }
