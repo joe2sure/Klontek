@@ -1,5 +1,6 @@
-import React from "react"
-import { useLocation } from "react-router-dom"
+import React from "react";
+import { useLocation } from "react-router-dom";
+import './Back.css'
 
 const Back = ({ title }) => {
   const location = useLocation()

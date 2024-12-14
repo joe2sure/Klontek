@@ -22,15 +22,15 @@ const EducationalContent = () => {
                 development.
               </p>
               <p>
-                Our Educational Content spans K-12, Engineering across all disciplines, Soft skills, Skill Development,
-                Vocational, Applied Sciences, Humanities .. etc.
+                Our Educational Content spans Software Engineering, Machine Learning, Artificial Intelligence across all disciplines,
+                Backend Engineering(Nodejs/C#), Mobile Development (React Native/Flutter), Web Development... etc.
               </p>
               <p>
                 we have Animated tutorials, offers practice exercises, Assessments, LIVE Tutor
               </p>
               <p>
-                K-12 Covers Maths, EVS, English, Physics, Chemistry, Biology, Skill Development covers 
-                Automobile, Civil, Electrical, Tailoring, Mobile Repair and more.
+                Other Skill Development covers 
+                Graphic Design, Data Science/Data Analysis, Cinematography, Mobile/PC Repairs and more.
               </p>
             </div>
           </div>

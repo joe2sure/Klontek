@@ -13,7 +13,7 @@ const ServicePage = () => {
       <main id="main">
         <section className="service-header">
           <div className="service-page-container">
-            <p>We are a GLOBAL LEADER in Telcom VAS, offer Services across Educational Content, Entertainment Content, Games and sports</p>
+            <p>We are a GLOBAL LEADER in Tech, offer Services across Educational Content, Entertainment Content, Games, sports and many more</p>
           </div>
         </section>
         <EducationalContent />

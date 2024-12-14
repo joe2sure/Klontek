@@ -59,13 +59,13 @@
   }
   
   .portfolio-card-details h2 {
-    color: #4169e1; /* theme-blue */
+    color: var(--primary-color);
     text-align: center;
     font-size: 1.25rem;
   }
   
   .portfolio-card-details p {
     font-weight: 300;
-    color: #9ca3af;
+    color: var(--text-color);
     text-align: center;
   }

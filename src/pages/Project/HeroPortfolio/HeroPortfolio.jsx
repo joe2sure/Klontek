@@ -17,7 +17,7 @@ export default function HeroPortfolio() {
         </Fade> 
       </div> 
       <div className="hero-image"> 
-        <Fade direction="up" triggerOnce> 
+        <Fade direction="up"> 
           <img src={heroPortfolio} alt="Hero" /> 
         </Fade> 
       </div> 

@@ -1,4 +1,115 @@
 .hero-team {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
+  .hero-team {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* hero-team Text Styling */
+.hero-team-text {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-team-text {
+    width: 50%;
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+}
+
+/* Responsive adjustments for very small screens */
+@media (max-width: 480px) {
+  .hero-team-text {
+    padding: 1rem; 
+    margin-right: 10rem;
+  }
+}
+
+/* Hero Title Styling */
+.hero-team-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+  line-height: 1.2em;
+}
+
+@media (min-width: 768px) {
+  .hero-team-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-team-title {
+    font-size: 2rem; 
+    line-height: 1.1em;
+  }
+}
+
+/* Hero Description Styling */
+.hero-team-description {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #6b7280; 
+  line-height: 1.6em;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .hero-team-description {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-team-description {
+    font-size: 0.875rem; 
+    line-height: 1.4em;
+  }
+}
+
+/* Spacing Adjustments */
+@media (max-width: 480px) {
+  .hero-team {
+    gap: 1rem; 
+  }
+}
+
+/* hero-team Image Styling */
+.hero-team-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hero-team-image {
+    width: 50%;
+    padding-top: 1rem;
+  }
+}
+
+.hero-team-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* .hero-team {
     display: flex;
     flex-direction: column-reverse; 
     align-items: center;
@@ -6,7 +117,7 @@
     gap: 2rem;
   }
   
-  /* Larger Screens Adjustments */
+  
   @media (min-width: 768px) {
     .hero-team {
       flex-direction: row; 
@@ -14,7 +125,7 @@
     }
   }
   
-  /* hero-team Text Styling */
+  
   .hero-team-text {
     width: 100%;
     text-align: center; 
@@ -55,7 +166,7 @@
     }
   }
   
-  /* hero-team Image Styling */
+  
   .hero-team-image {
     width: 100%;
     display: flex;
@@ -74,4 +185,4 @@
     max-width: 100%;
     height: auto;
   }
-  
+   */

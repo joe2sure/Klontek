@@ -3,6 +3,9 @@
 }
 .team .items {
     transition: 0.5s;
+    position: relative;
+    overflow: hidden; /* Ensure contents stay within the card */
+    transition: background-color 0.3s ease-in-out;
   }
   .team .img {
     position: relative;
@@ -54,6 +57,31 @@
   .team .items:hover p {
     color: var(--backgroundLight);
   }
+  .team .see-more-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    background: var(--backgroundLight);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+  }
+/* Make "See more" visible on hover */
+.team .items:hover .see-more-button {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.team .see-more-button:hover {
+  background-color: var(--primary-color);
+  color: var(--backgroundLight);
+}
   .team .items:hover .overlay {
     opacity: 1;
   }

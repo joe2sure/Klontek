@@ -13,7 +13,7 @@ const SportsContent = () => {
                 <i className="bi bi-universal-access-circle"></i>
               </div>
               <h4>Sports</h4>
-              <p>Learning a sport is fun and challenging... sports like football, cricket, Tennis, Badminton, Rugby, volleyball and many more as such has tutoring videos talks about the history of the game, rules, knack to learn, skills to develop, details about the sport... so why to wait, let's play the sport...</p>
+              <p>The need for Betting App, latest news and trendings in sport is fun and challenging... sports like football, cricket, Tennis, Badminton, Rugby, volleyball and many more as such has Our Sports/Betting Apps provide a wide range of alternatives about the game, rules, knack to learn, skills to develop, details about the sport... so why wait, let's connect...</p>
             </div>
             <div className="service-page-col-img">
               <img src={sports} alt="Sports" className="service-page-img-fluid" />

@@ -32,9 +32,9 @@
   
   .discuss-button {
     display: flex;
-    background-color: #fff;
-    background-color: #ffd700; /* yellow-300 */
-    color: #00008b; /* blue-800 */
+    background-color: var(--backgroundLight);
+    background-color: #ffd700;
+    color: #00008b; 
     font-size: 1.25rem;
     letter-spacing: 0.025em;
     align-items: center;
@@ -42,7 +42,7 @@
     width: 14rem;
     height: 5rem;
     padding: 1.25rem;
-    border: 2px solid #4b0082; /* dark-theme-purple */
+    border: 2px solid #4b0082; 
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     border-radius: 9999px;
     margin-top: 1.5rem;
@@ -58,6 +58,7 @@
     font-size: 1.25rem;
     padding: 1.25rem;
     margin-bottom: 0.25rem;
+    color: var(--backgroundLight);
   }
   
   /* Responsive Breakpoints */

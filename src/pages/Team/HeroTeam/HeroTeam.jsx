@@ -9,7 +9,7 @@ export default function HeroTeam() {
         <Fade direction="up" triggerOnce>
           <h1 className="hero-team-title">Our Team</h1>
         </Fade>
-        <Fade direction="up" delay={500} triggerOnce>
+        <Fade direction="up" delay={500}>
           <p className="hero-team-description">
             Our team is full of passionate people and ready to make your dream software come true.
           </p>

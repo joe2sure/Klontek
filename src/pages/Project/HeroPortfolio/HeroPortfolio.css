@@ -13,7 +13,7 @@
   
   .hero-text h1 {
     font-size: 3.75rem;
-    color: #3b82f6;
+    color: var(--primary-color);
     font-weight: bold;
     line-height: 1.2;
     margin-bottom: 1.25rem;
@@ -22,7 +22,7 @@
   .hero-text p {
     font-weight: 300;
     font-size: 1.25rem;
-    color: #9ca3af; 
+    color: var(--text-color); 
     line-height: 1.625;
   }
   

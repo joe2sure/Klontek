@@ -1,40 +1,53 @@
-import React, { useRef, useState } from "react"
-import { faqData } from "../../data/dummyData.js"
-import TextHeader from "../TextHeader/TextHeader.jsx"
-// import '..'
+import React, { useState } from "react";
+import { faqData } from "../../data/dummyData.js";
+import TextHeader from "../TextHeader/TextHeader.jsx";
+// import './Faq.css';
 
 const Faq = () => {
-  const [click, setClick] = useState(false)
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const toggle = (index) => {
-    if (click === index) {
-      return setClick(null)
-    }
-    setClick(index)
-  }
+    setActiveIndex(activeIndex === index ? null : index);
+  };
 
   return (
-    <>
+    <div className="faq-container">
       <TextHeader subtitle='FAQS' title='Frequently Ask Question' />
       <section className='faq'>
         <div className='container'>
           {faqData.map((val, index) => (
-            <div className='box'>
-              <button className='accordion' onClick={() => toggle(index)} key={index}>
+            <div 
+              key={index} 
+              className={`faq-box ${activeIndex === index ? 'active' : ''}`}
+            >
+              <button 
+                className='accordion' 
+                onClick={() => toggle(index)}
+                aria-expanded={activeIndex === index}
+                aria-controls={`faq-content-${index}`}
+              >
                 <h2>{val.title}</h2>
-                <span>{click === index ? <i className='fa fa-chevron-down'></i> : <i className='fa fa-chevron-right'></i>}</span>
+                <span className="icon">
+                  {activeIndex === index ? (
+                    <i className='fa fa-chevron-up'></i>
+                  ) : (
+                    <i className='fa fa-chevron-right'></i>
+                  )}
+                </span>
               </button>
-              {click === index ? (
-                <div className='text'>
-                  <p>{val.desc}</p>
-                </div>
-              ) : null}
+              <div 
+                id={`faq-content-${index}`}
+                className={`faq-content ${activeIndex === index ? 'show' : ''}`}
+                aria-hidden={activeIndex !== index}
+              >
+                <p>{val.desc}</p>
+              </div>
             </div>
           ))}
         </div>
       </section>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default Faq
+export default Faq;

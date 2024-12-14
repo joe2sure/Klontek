@@ -8,7 +8,7 @@ import ServicePage from "./pages/Service/ServicePage.jsx";
 import ProjectPage from "./pages/Project/ProjectPage.jsx";
 import CareerPage from "./pages/Career/CareerPage.jsx";
 import PricingPage from "./pages/Pricing/Pricing.jsx";
-import BlogPage from "./components/blog/BlogPage.jsx";
+import BlogPage from "./pages/Blog/BlogPage.jsx";
 import EventsPage from "./pages/Event/EventPage.jsx";
 import Team from "./pages/Team/Team.jsx";
 // import TeamPage from "./pages/Team/Team.jsx";
