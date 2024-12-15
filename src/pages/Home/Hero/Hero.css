@@ -40,6 +40,7 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  cursor: pointer;
 }
 
 .button.dynamic-button button {
@@ -47,6 +48,7 @@
   overflow: hidden;
   transition: all 0.3s ease;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .button.dynamic-button button:before {
@@ -68,6 +70,24 @@
 .button.dynamic-button button:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Click Animation */
+.button-clicked {
+  animation: buttonClick 0.3s ease;
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+@keyframes buttonClick {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 768px) {

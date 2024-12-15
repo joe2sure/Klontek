@@ -7,11 +7,11 @@ import About from "./pages/About/About.jsx";
 import ServicePage from "./pages/Service/ServicePage.jsx";
 import ProjectPage from "./pages/Project/ProjectPage.jsx";
 import CareerPage from "./pages/Career/CareerPage.jsx";
-import PricingPage from "./pages/Pricing/Pricing.jsx";
 import BlogPage from "./pages/Blog/BlogPage.jsx";
 import EventsPage from "./pages/Event/EventPage.jsx";
 import Team from "./pages/Team/Team.jsx";
-// import TeamPage from "./pages/Team/Team.jsx";
+import ContactPage from "./pages/Contact/Contact.jsx";
+// import PricingPage from "./pages/Pricing/Pricing.jsx";
 
 
 function App() {
@@ -26,9 +26,11 @@ function App() {
         <Route path="/service" element={<ServicePage />} />
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/career" element={<CareerPage/>} />
-        <Route path="/pricing" element={<PricingPage />} />
+        {/* <Route path="/pricing" element={<PricingPage />} /> */}
+        <Route path="/contact" element={<ContactPage/>}/>
         <Route path="/journal" element={<BlogPage />} />
         <Route path="/event" element={<EventsPage />} />
+        
       </Routes>
       <Footer />
     </Router>

@@ -79,6 +79,7 @@ import avatar4 from '../assets/images/avatar/testimonial_pic2.svg';
 // About page image imports
 import manag_photo1 from '../assets/images/Joe.png';
 import manag_photo2 from '../assets/images/emma.png';
+import manag_photo3 from '../assets/images/uche.png';
 
 
 // TeamMembers Page image imports
@@ -939,6 +940,25 @@ export const managementTeam = [
     socialLinks: {
       twitter: "/",
       linkedin: "https://www.linkedin.com/in/dr-ou-emmanuel/"
+    }
+  },
+  {
+    name: "Dr Uche Igboeli",
+    title: "Director and Share holder",
+    photo: manag_photo3,
+    description: [
+      `
+      Dr. Uche Igboeli is a seasoned computer science senior lecturer at the University of Abuja with extensive expertise 
+      in programming, Software development, and database management. As a former team leader who developed the University of Abuja portal,
+       he is renowned for mentoring numerous students, helping them cultivate advanced programming skills that have enabled many to succeed professionally worldwide. 
+       Beyond his teaching responsibilities, Dr. Igboeli actively supervises both undergraduate and postgraduate students, 
+      demonstrating a strong commitment to academic and professional development in the field of computer science. 
+      He is married and has children.
+      `
+    ],
+    socialLinks: {
+      twitter: "/",
+      linkedin: "https://www.linkedin.com/in/dr-ou-uche/"
     }
   }
 ];

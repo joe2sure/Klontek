@@ -55,6 +55,9 @@
   }
   
   @media (max-width: 768px) {
+    .bio-section {
+      margin-top: -6rem;
+    }
     .bio-content {
       flex-direction: column;
     }

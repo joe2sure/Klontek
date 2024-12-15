@@ -45,28 +45,7 @@
   .aboutHome .item:hover p {
     color: var(--backgroundLight);
   }
-  /*----------awrapper------------*/
-  /* .awrapper {
-    background-image: url("../../../../public/images/awrapper.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 30vh;
-    color: var(--backgroundLight);
-  }
-  .awrapper .box {
-    padding: 70px 0;
-  }
-  .awrapper img {
-    margin-right: 30px;
-  }
-  .awrapper h1 {
-    font-size: 50px;
-  }
-  .awrapper h3 {
-    font-size: 20px;
-    font-weight: 500;
-  } */
+
 
   .awrapper {
     background-image: url("../../../../public/images/awrapper.png");
@@ -74,28 +53,42 @@
     background-size: cover;
     background-position: center;
     color: var(--backgroundLight);
-    padding-top: 0.1rem;
-    /* padding: -2rem 0; */
+    padding: 2rem 0;
+
+  }
+
+  .awrapper .container {
+    max-width: 1200px; /* Ensure container has a max-width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 15px; /* Add side padding */
   }
   
+
   .awrapper-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 0.5rem;
+    gap: 1rem; /* Increased gap for better readability */
     align-items: center;
     justify-content: center;
   }
   
+
   .awrapper-box {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 1rem;
+    background-color: rgba(0,0,0,0.2); /* Optional: add slight background for better contrast */
+    border-radius: 10px; /* Optional: rounded corners */
   }
   
+  /* .awrapper-img {
+    margin-right: 1rem;
+  } */
   .awrapper-img {
     margin-right: 1rem;
+    flex-shrink: 0; /* Prevent image from shrinking */
   }
   
   .awrapper-img img {
@@ -103,16 +96,23 @@
     height: 80px;
     object-fit: contain;
   }
-  
+
+  .awrapper-text {
+    flex-grow: 1; /* Allow text to take remaining space */
+  }
+
   .awrapper-text h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    line-height: 1.2; /* Improve readability */
   }
-  
+
   .awrapper-text h3 {
     font-size: 1.2rem;
     font-weight: 500;
+    line-height: 1.4; /* Improve readability */
   }
+  
   
   /*----------awrapper------------*/
   @media screen and (max-width: 768px) {
@@ -121,6 +121,9 @@
     }
     .aboutHome .row {
       width: 100%;
+    }
+    .awrapper {
+      overflow: hidden;
     }
     .awrapper-grid {
       grid-template-columns: 1fr;
@@ -148,8 +151,5 @@
     .awrapper-text h3 {
       font-size: 1rem;
     }
-    /* .awrapper {
-      height: 50vh;
-    } */
 
   }

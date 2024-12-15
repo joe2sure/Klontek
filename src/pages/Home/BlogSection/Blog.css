@@ -1,7 +1,7 @@
 .blog {
   width: 100%;
   padding: 50px 0;
-  
+
 }
 
 .blog .container {
@@ -40,6 +40,9 @@
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
+  .blog {
+    margin-top: -6em;
+  }
   .blog .grid2 {
     grid-template-columns: 1fr;
     gap: 15px;

@@ -8,7 +8,7 @@ export default function Service({ data }) {
     <div className="service-container">
       <div className="service-wrapper">
 
-        <Fade direction="right">
+        <Fade direction="right" triggerOnce>
             <TextHeader 
               subtitle='Our Service' 
               title='We are ready to scale up your business with our great service.'
