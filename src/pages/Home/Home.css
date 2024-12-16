@@ -1,11 +1,11 @@
 .home-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem; /* Creates consistent spacing between sections */
+    gap: 2rem;
   }
   
   @media screen and (max-width: 768px) {
     .home-container {
-      gap: 1rem; /* Reduced gap for mobile devices */
+      gap: 1rem;
     }
   }
