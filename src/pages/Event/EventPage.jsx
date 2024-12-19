@@ -22,7 +22,8 @@ const EventCard = ({ date, month, image, title, time, location }) => (
     </Fade>
     <Fade direction="up" delay={100}>
       <div className="charity-event-image">
-        <img src={image} alt={title} />
+        {/* Lazy loading applied */}
+        <img src={image} alt={title} loading="lazy" />
       </div>
     </Fade>
     <Fade direction="up" delay={200}>

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Spinner from "./utils/Spinner/Spinner.jsx";
 
-
 // Lazy load all components for pages
 const Header = lazy(() => import("./components/Navbar/Header.jsx"));
 const Footer = lazy(() => import("./components/Footer/Footer.jsx"));
@@ -16,6 +15,7 @@ const BlogPage = lazy(() => import("./pages/Blog/BlogPage.jsx"));
 const EventsPage = lazy(() => import("./pages/Event/EventPage.jsx"));
 const Team = lazy(() => import("./pages/Team/Team.jsx"));
 const ContactPage = lazy(() => import("./pages/Contact/Contact.jsx"));
+
 
 function App() {
   return (
