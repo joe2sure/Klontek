@@ -2,6 +2,9 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Spinner from "./utils/Spinner/Spinner.jsx";
+import NotFoundPage from "./pages/NotFound/NotFoundPage.jsx";
+
+
 
 // Lazy load all components for pages
 const Header = lazy(() => import("./components/Navbar/Header.jsx"));
@@ -33,6 +36,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/journal" element={<BlogPage />} />
             <Route path="/event" element={<EventsPage />} />
+            <Route path="**" element={<NotFoundPage />} />
           </Routes>
           <Footer />
         </div>

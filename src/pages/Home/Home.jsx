@@ -11,6 +11,7 @@ import Portfolio from "./Portfolio/Portfolio.jsx";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs.jsx";
 import Discuss from "./Discuss/Discuss.jsx";
 import './Home.css';
+import Spinner from "../../utils/Spinner/Spinner.jsx";
 
 // Lazy loaded components
 const Revenue = lazy(() => import("./Revenue/Revenue.jsx"));
@@ -28,7 +29,7 @@ const Home = () => {
       <Portfolio data={PortfolioData} />
       <WhyChooseUs data={WhyChooseUsData} />
       <Discuss />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Spinner />}>
         <HomeTestimonialSection testimonials={homeTestimonials} />
         <Revenue />
         <BlogSection />
