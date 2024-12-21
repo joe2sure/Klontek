@@ -6,12 +6,12 @@ export default function HeroTeam() {
   return (
     <section className="hero-team">
       <div className="hero-team-text">
-        <Fade direction="up" triggerOnce>
+        {/* <Fade direction="up" triggerOnce>
           <h1 className="hero-team-title">Our Team</h1>
-        </Fade>
+        </Fade> */}
         <Fade direction="up" delay={500}>
           <p className="hero-team-description">
-            Our team is full of passionate people and ready to make your dream software come true.
+            Our team is full of passionate individuals ready to make your dream software come true.
           </p>
         </Fade>
       </div>

@@ -4,6 +4,12 @@
   align-items: center;
   padding: 2rem;
   gap: 2rem;
+
+}
+
+.hero-team p {
+  text-align: center;
+
 }
 
 /* Adjustments for larger screens */
@@ -11,6 +17,7 @@
   .hero-team {
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 380px;
   }
 }
 

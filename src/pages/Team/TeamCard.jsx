@@ -34,7 +34,7 @@ const TeamCard = () => {
             </div>
             <div className="details">
               <h2>{val.name}</h2>
-              <p>{val.work}</p>
+              <p>{val.role}</p>
               {expandedMember === index && (
                 <div className="additional-details">
                   <p><strong>Discipline:</strong> {val.discipline}</p>
@@ -43,7 +43,7 @@ const TeamCard = () => {
                   <p><strong>Tech Stack:</strong> {val.stack}</p>
                   <p><strong>Experience:</strong> {val.experience}</p>
                   {val.email && <p><strong>Email:</strong> {val.email}</p>}
-                  {val.phone && <p><strong>Phone:</strong> {val.phone}</p>}
+                  {/* {val.phone && <p><strong>Phone:</strong> {val.phone}</p>} */}
                   <p><strong>Fun Fact:</strong> {val.funFact}</p>
                 </div>
               )}

@@ -102,6 +102,11 @@ import teamImg2 from '../assets/images/team-members/melvin.png';
 import teamImg3 from '../assets/images/team-members/osas.png';
 import teamImg4 from '../assets/images/team-members/samuel.png';
 import teamImg5 from '../assets/images/team-members/yakubu.png';
+import teamImg6 from '../assets/images/team-members/ama.png';
+import teamImg7 from '../assets/images/team-members/farouk.png';
+import teamImg8 from '../assets/images/team-members/charles.png';
+import teamImg9 from '../assets/images/team-members/favour.png';
+import teamImg10 from '../assets/images/team-members/testimony.png';
 
 
 export const ServicesData = [
@@ -611,7 +616,7 @@ export const homeAbout = [
     {
       cover: teamImg1,
       name: "Joseph Ifeanyi Onwe",
-      work: "CEO klontek",
+      role: "Chief Executive Officer (CEO)",
       discipline: "Bsc Comp. Sci",
       profession: "Software Engineer",
       specifications: "Fullstack Developer",
@@ -622,7 +627,7 @@ export const homeAbout = [
     {
       cover: teamImg2,
       name: "Melvin Chidiebube Onuorah.",
-      work: "COO klontek",
+      role: "Chief Operations Officer (COO)",
       discipline: "Bsc. Computer Science",
       profession: "Data Analyst/Content Writer",
       specifications: "Business Analytics",
@@ -635,7 +640,7 @@ export const homeAbout = [
     {
       cover: teamImg3,
       name: "Osas",
-      work: "Lead Instructor Klontek",
+      role: "Lead Design Instructor",
       discipline: "Bsc Comp. Sci",
       profession: "UI Designer/Graphics Designer/Media",
       specifications: "Design",
@@ -648,7 +653,7 @@ export const homeAbout = [
     {
       cover: teamImg4,
       name: "Bayere Samuel",
-      work: "Lead Instructor Klontek",
+      role: "Senior Media Specialist",
       discipline: "Bsc Comp. Sci",
       profession: "Graphics Designer/Media",
       specifications: "Media",
@@ -659,7 +664,7 @@ export const homeAbout = [
     {
       cover: teamImg5,
       name: "Yakubu Halimat Oziohu",
-      work: "HR/Sectary Klontek",
+      role: "Human Resources Manager",
       discipline: "Bsc Statistics",
       profession: "Klontek Resource Manager",
       specifications: "MS Word, Corel Draw, and basic computer skills",
@@ -669,7 +674,61 @@ export const homeAbout = [
       email: "yakubuoziohu27@yahoo.com",
       funFact: "Love meeting people",
     },
+    {
+      cover: teamImg6,
+      name: "Chiamaka Azuh",
+      role: "Lead UI/UX Designer",
+      discipline: "Bsc. Biotechnology",
+      profession: "Visual Designer",
+      specifications: "UI/UX Designer",
+      stack: "Figma, VS Code, Photoshop",
+      experience: "3 yrs",
+      phone: "08105782346",
+      email: "azuhchiamaka2018@gmail.com",
+      funFact: "I'm a huge Disney fan",
+    },
+    {
+      cover: teamImg7,
+      name: "Farouk Adedamola",
+      role: "Frontend Development Lead",
+      discipline: "Bsc Mathematics",
+      profession: "Software Engineer",
+      specifications: "Frontend Developer",
+      stack: "Frontend(Reactjs)",
+      experience: "3yrs",
+      funFact: "None I can think of",
+    },
+    {
+      cover: teamImg8,
+      name: "Onochie Charles",
+      role: "Fullstack Development Lead",
+      discipline: "Bsc, MSc Robotics",
+      profession: "Software Engineer",
+      specifications: "Fullstack Developer",
+      stack: "C# .Net and React Native",
+      experience: "5 yrs",
+      funFact: "Love to read and always willing to learn new things",
+    },
+    {
+      cover: teamImg9,
+      name: "Favour Eziashi",
+      role: "Senior Visual Designer",
+      discipline: "Computer Science",
+      profession: "Visual Designer",
+      specifications: "Videos and Graphics",
+      stack: "N/A",
+      experience: "8+ years",
+      funFact: "Just a chill guy",
+    },
+    {
+      cover: teamImg10,
+      name: "Testimony AKINKUNMI",
+      role: "Legal Advisor",
+      discipline: "Llb Law",
+      funFact: "Love to watch documentaries",
+    },
   ];
+    
   
   export const priceData = [
     {
