@@ -107,6 +107,7 @@ import teamImg7 from '../assets/images/team-members/farouk.png';
 import teamImg8 from '../assets/images/team-members/charles.png';
 import teamImg9 from '../assets/images/team-members/favour.png';
 import teamImg10 from '../assets/images/team-members/testimony.png';
+import teamImg11 from '../assets/images/team-members/joel.png';
 
 
 export const ServicesData = [
@@ -636,6 +637,19 @@ export const homeAbout = [
       phone: "08097683764",
       email: "melvinonuorah17@gmail.com",
       funFact: "A super fan of Marvel comics and I love travelling to new places",
+    },
+    {
+      cover: teamImg11,
+      name: "Joel George Idiaghe.",
+      role: "Chief Technology Officer (CTO)",
+      discipline: "Bsc Comp. Sci",
+      profession: "Software Engineer",
+      specifications: "FE&BE, Blockchain Developer",
+      stack: "Backend(nodejs/typescript, PHP/laravel), Frontend(Reactjs,nextjs, html/css), Github, linux, Blockchain(Solidity, Rust, ethers)",
+      experience: "6yrs",
+      phone: "",
+      email: "Joel@gmail.com",
+      funFact: "N/A",
     },
     {
       cover: teamImg3,
